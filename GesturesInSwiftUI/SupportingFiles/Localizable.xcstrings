@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Drag Gestures" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -21,7 +22,11 @@
         }
       }
     },
+    "Example 3" : {
+
+    },
     "General Gesrures" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -30,6 +35,12 @@
           }
         }
       }
+    },
+    "Gestures" : {
+
+    },
+    "Hello, World!" : {
+
     },
     "Magnification Gesture" : {
       "localizations" : {
@@ -41,7 +52,23 @@
         }
       }
     },
+    "Magnification Gesture \"Go Back\"" : {
+
+    },
+    "Magnification Gesture \"Stay Still\"" : {
+
+    },
+    "Magnification Gestures" : {
+
+    },
+    "Magnify and bounce back" : {
+
+    },
+    "Magnify and Keep Zoom Level" : {
+
+    },
     "Rotation Gesture" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -50,6 +77,15 @@
           }
         }
       }
+    },
+    "Store gesture state" : {
+
+    },
+    "Zoom in gesture" : {
+
+    },
+    "Zoom our gesture" : {
+
     }
   },
   "version" : "1.0"

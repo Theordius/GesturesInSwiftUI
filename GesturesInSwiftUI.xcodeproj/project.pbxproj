@@ -16,6 +16,9 @@
 		10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127502BAB0154004A2CC6 /* ContentView.swift */; };
 		10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127522BAB0162004A2CC6 /* GesturesInSwiftUIApp.swift */; };
 		10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127542BAB083E004A2CC6 /* SquaresGridView.swift */; };
+		10F1275C2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1275B2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift */; };
+		10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1275E2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift */; };
+		10F127612BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		10F127502BAB0154004A2CC6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10F127522BAB0162004A2CC6 /* GesturesInSwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GesturesInSwiftUIApp.swift; sourceTree = "<group>"; };
 		10F127542BAB083E004A2CC6 /* SquaresGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresGridView.swift; sourceTree = "<group>"; };
+		10F1275B2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesturesListView.swift; sourceTree = "<group>"; };
+		10F1275E2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyAndBounceBackView.swift; sourceTree = "<group>"; };
+		10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyAndKeepZoomLevelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,8 @@
 		10F127562BAB0A5A004A2CC6 /* MagnificationGestureView */ = {
 			isa = PBXGroup;
 			children = (
+				10F1275B2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift */,
+				10F1275D2BAB0FC9004A2CC6 /* Components */,
 			);
 			path = MagnificationGestureView;
 			sourceTree = "<group>";
@@ -154,6 +162,15 @@
 			children = (
 			);
 			path = RotationGestureView;
+			sourceTree = "<group>";
+		};
+		10F1275D2BAB0FC9004A2CC6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10F1275E2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift */,
+				10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +247,13 @@
 			files = (
 				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
 				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,
+				10F127612BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift in Sources */,
 				10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */,
+				10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */,
 				10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */,
 				10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */,
 				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,
+				10F1275C2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

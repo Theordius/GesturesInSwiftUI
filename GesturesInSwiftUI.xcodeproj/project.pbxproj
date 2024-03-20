@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10F0FB3E2BAAF9D600D4019B /* GesturesInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0FB3D2BAAF9D600D4019B /* GesturesInSwiftUIApp.swift */; };
-		10F0FB402BAAF9D600D4019B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0FB3F2BAAF9D600D4019B /* ContentView.swift */; };
 		10F0FB422BAAF9E400D4019B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0FB412BAAF9E400D4019B /* Assets.xcassets */; };
 		10F0FB462BAAF9E400D4019B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0FB452BAAF9E400D4019B /* Preview Assets.xcassets */; };
+		10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0FB4D2BAAFAE400D4019B /* TextView.swift */; };
+		10F0FB512BAAFD3100D4019B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 10F0FB502BAAFD3100D4019B /* Localizable.xcstrings */; };
+		10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */; };
+		10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */; };
+		10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127502BAB0154004A2CC6 /* ContentView.swift */; };
+		10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127522BAB0162004A2CC6 /* GesturesInSwiftUIApp.swift */; };
+		10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127542BAB083E004A2CC6 /* SquaresGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10F0FB3A2BAAF9D600D4019B /* GesturesInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		10F0FB3D2BAAF9D600D4019B /* GesturesInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesInSwiftUIApp.swift; sourceTree = "<group>"; };
-		10F0FB3F2BAAF9D600D4019B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10F0FB412BAAF9E400D4019B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F0FB432BAAF9E400D4019B /* GesturesInSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GesturesInSwiftUI.entitlements; sourceTree = "<group>"; };
 		10F0FB452BAAF9E400D4019B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10F0FB4D2BAAFAE400D4019B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		10F0FB502BAAFD3100D4019B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresGridRow.swift; sourceTree = "<group>"; };
+		10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		10F127502BAB0154004A2CC6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10F127522BAB0162004A2CC6 /* GesturesInSwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GesturesInSwiftUIApp.swift; sourceTree = "<group>"; };
+		10F127542BAB083E004A2CC6 /* SquaresGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,9 @@
 		10F0FB3C2BAAF9D600D4019B /* GesturesInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				10F0FB3D2BAAF9D600D4019B /* GesturesInSwiftUIApp.swift */,
-				10F0FB3F2BAAF9D600D4019B /* ContentView.swift */,
+				10F1274F2BAB00ED004A2CC6 /* App */,
+				10F0FB4C2BAAFAAF00D4019B /* Views */,
+				10F0FB4F2BAAFD0B00D4019B /* SupportingFiles */,
 				10F0FB412BAAF9E400D4019B /* Assets.xcassets */,
 				10F0FB432BAAF9E400D4019B /* GesturesInSwiftUI.entitlements */,
 				10F0FB442BAAF9E400D4019B /* Preview Content */,
@@ -67,6 +78,82 @@
 				10F0FB452BAAF9E400D4019B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10F0FB4C2BAAFAAF00D4019B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10F127582BAB0A78004A2CC6 /* Common */,
+				10F1275A2BAB0AAC004A2CC6 /* RotationGestureView */,
+				10F127572BAB0A6D004A2CC6 /* DragGestureView */,
+				10F127592BAB0A90004A2CC6 /* GeneralGesturesView */,
+				10F127562BAB0A5A004A2CC6 /* MagnificationGestureView */,
+				10F0FB542BAAFF9900D4019B /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10F0FB4F2BAAFD0B00D4019B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				10F0FB502BAAFD3100D4019B /* Localizable.xcstrings */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		10F0FB542BAAFF9900D4019B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		10F1274F2BAB00ED004A2CC6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10F127502BAB0154004A2CC6 /* ContentView.swift */,
+				10F127522BAB0162004A2CC6 /* GesturesInSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10F127562BAB0A5A004A2CC6 /* MagnificationGestureView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MagnificationGestureView;
+			sourceTree = "<group>";
+		};
+		10F127572BAB0A6D004A2CC6 /* DragGestureView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DragGestureView;
+			sourceTree = "<group>";
+		};
+		10F127582BAB0A78004A2CC6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				10F0FB4D2BAAFAE400D4019B /* TextView.swift */,
+				10F127542BAB083E004A2CC6 /* SquaresGridView.swift */,
+				10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		10F127592BAB0A90004A2CC6 /* GeneralGesturesView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GeneralGesturesView;
+			sourceTree = "<group>";
+		};
+		10F1275A2BAB0AAC004A2CC6 /* RotationGestureView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RotationGestureView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +198,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 10F0FB312BAAF9D600D4019B;
 			productRefGroup = 10F0FB3B2BAAF9D600D4019B /* Products */;
@@ -129,6 +217,7 @@
 			files = (
 				10F0FB462BAAF9E400D4019B /* Preview Assets.xcassets in Resources */,
 				10F0FB422BAAF9E400D4019B /* Assets.xcassets in Resources */,
+				10F0FB512BAAFD3100D4019B /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +228,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F0FB402BAAF9D600D4019B /* ContentView.swift in Sources */,
-				10F0FB3E2BAAF9D600D4019B /* GesturesInSwiftUIApp.swift in Sources */,
+				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
+				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,
+				10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */,
+				10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */,
+				10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */,
+				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

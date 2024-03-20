@@ -1,0 +1,56 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Drag Gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty przeciągania"
+          }
+        }
+      }
+    },
+    "Drag me!" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij mnie"
+          }
+        }
+      }
+    },
+    "General Gesrures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne gesty"
+          }
+        }
+      }
+    },
+    "Magnification Gesture" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przybliżania"
+          }
+        }
+      }
+    },
+    "Rotation Gesture" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest obracania"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

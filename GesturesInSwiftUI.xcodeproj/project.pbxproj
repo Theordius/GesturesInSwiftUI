@@ -21,8 +21,13 @@
 		10F127612BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */; };
 		10F127652BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127642BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift */; };
 		10F127672BAC4535004A2CC6 /* ExampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127662BAC4535004A2CC6 /* ExampleListView.swift */; };
-		10F127692BAC45AF004A2CC6 /* ExampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127682BAC45AF004A2CC6 /* ExampleItem.swift */; };
+		10F127692BAC45AF004A2CC6 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127682BAC45AF004A2CC6 /* ExampleModel.swift */; };
 		10F1276B2BAC4A0A004A2CC6 /* ExamplesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1276A2BAC4A0A004A2CC6 /* ExamplesData.swift */; };
+		10F127702BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1276F2BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift */; };
+		10F127732BAC4F5A004A2CC6 /* DragGesturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127722BAC4F5A004A2CC6 /* DragGesturesListView.swift */; };
+		10F127752BAC5494004A2CC6 /* DragGestureWithKeepingPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127742BAC5494004A2CC6 /* DragGestureWithKeepingPosition.swift */; };
+		10F127782BAC5D72004A2CC6 /* DragGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127772BAC5D72004A2CC6 /* DragGesturesViewModel.swift */; };
+		10F1277A2BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +47,13 @@
 		10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyAndKeepZoomLevelView.swift; sourceTree = "<group>"; };
 		10F127642BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyAndStoreValueView.swift; sourceTree = "<group>"; };
 		10F127662BAC4535004A2CC6 /* ExampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleListView.swift; sourceTree = "<group>"; };
-		10F127682BAC45AF004A2CC6 /* ExampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleItem.swift; sourceTree = "<group>"; };
+		10F127682BAC45AF004A2CC6 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
 		10F1276A2BAC4A0A004A2CC6 /* ExamplesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesData.swift; sourceTree = "<group>"; };
+		10F1276F2BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureWithBounceBackView.swift; sourceTree = "<group>"; };
+		10F127722BAC4F5A004A2CC6 /* DragGesturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesturesListView.swift; sourceTree = "<group>"; };
+		10F127742BAC5494004A2CC6 /* DragGestureWithKeepingPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureWithKeepingPosition.swift; sourceTree = "<group>"; };
+		10F127772BAC5D72004A2CC6 /* DragGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesturesViewModel.swift; sourceTree = "<group>"; };
+		10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesturesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,8 @@
 		10F127572BAB0A6D004A2CC6 /* DragGestureView */ = {
 			isa = PBXGroup;
 			children = (
+				10F127722BAC4F5A004A2CC6 /* DragGesturesListView.swift */,
+				10F127712BAC4F3C004A2CC6 /* Components */,
 			);
 			path = DragGestureView;
 			sourceTree = "<group>";
@@ -189,6 +201,7 @@
 			children = (
 				10F1276A2BAC4A0A004A2CC6 /* ExamplesData.swift */,
 				10F1276E2BAC4AFF004A2CC6 /* Model */,
+				10F127762BAC5D51004A2CC6 /* ViewModels */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -196,9 +209,27 @@
 		10F1276E2BAC4AFF004A2CC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				10F127682BAC45AF004A2CC6 /* ExampleItem.swift */,
+				10F127682BAC45AF004A2CC6 /* ExampleModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		10F127712BAC4F3C004A2CC6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10F1276F2BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift */,
+				10F127742BAC5494004A2CC6 /* DragGestureWithKeepingPosition.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		10F127762BAC5D51004A2CC6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				10F127772BAC5D72004A2CC6 /* DragGesturesViewModel.swift */,
+				10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,12 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F127752BAC5494004A2CC6 /* DragGestureWithKeepingPosition.swift in Sources */,
 				10F127652BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift in Sources */,
 				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
 				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,
-				10F127692BAC45AF004A2CC6 /* ExampleItem.swift in Sources */,
+				10F127702BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift in Sources */,
+				10F127692BAC45AF004A2CC6 /* ExampleModel.swift in Sources */,
+				10F1277A2BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift in Sources */,
 				10F127612BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift in Sources */,
 				10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */,
+				10F127732BAC4F5A004A2CC6 /* DragGesturesListView.swift in Sources */,
 				10F127672BAC4535004A2CC6 /* ExampleListView.swift in Sources */,
 				10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */,
 				10F1276B2BAC4A0A004A2CC6 /* ExamplesData.swift in Sources */,
@@ -286,6 +321,7 @@
 				10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */,
 				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,
 				10F1275C2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift in Sources */,
+				10F127782BAC5D72004A2CC6 /* DragGesturesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

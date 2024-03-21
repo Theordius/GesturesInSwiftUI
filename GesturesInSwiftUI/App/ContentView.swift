@@ -12,12 +12,12 @@ struct ContentView: View {
 
     var body: some View {
         TabView {
-            Text("General Gestures")
+            DragGesturesListView()
                 .padding()
                 .tabItem {
                     Label(
-                        "General",
-                        systemImage: "rhombus"
+                        "Drag And Drop",
+                        systemImage: "arrow.up.right"
                     )
                 }
                 .tag(1)

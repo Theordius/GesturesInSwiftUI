@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExampleItem<Destination: View>: Identifiable {
+struct ExampleModel<Destination: View>: Identifiable {
     let id = UUID()
     let title: String
     let subtitle: String

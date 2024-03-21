@@ -7,6 +7,12 @@
     "Combined Gestures" : {
 
     },
+    "Drag And Drop" : {
+
+    },
+    "Drag Gesture with bounce back" : {
+
+    },
     "Drag Gestures" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -28,10 +34,10 @@
         }
       }
     },
-    "Example 1 View" : {
+    "Drag Me!" : {
 
     },
-    "General" : {
+    "Example 1 View" : {
 
     },
     "General Gesrures" : {
@@ -44,9 +50,6 @@
           }
         }
       }
-    },
-    "General Gestures" : {
-
     },
     "Hello, World!" : {
 

@@ -10,7 +10,7 @@ import SwiftUI
 struct ExampleListView<Destination: View>: View {
     // MARK: - PROPERTIES
     let headerTitle: String
-    let examples: [ExampleItem<Destination>]
+    let examples: [ExampleModel<Destination>]
 
 
     // MARK: - BODY
@@ -35,8 +35,8 @@ struct ExampleListView<Destination: View>: View {
 // MARK: - PREVIEW
 struct ExampleListView_Previews: PreviewProvider {
     static var previews: some View {
-        let exampleItems: [ExampleItem<AnyView>] = [
-            ExampleItem(
+        let exampleItems: [ExampleModel<AnyView>] = [
+            ExampleModel(
                 title: "Example 1",
                 subtitle: "Subtitle",
                 destination: AnyView(Text("Example 1 View"))

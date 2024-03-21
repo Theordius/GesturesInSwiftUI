@@ -12,39 +12,41 @@ struct MagnificationGesturesListView: View {
 
     // MARK: - BODY
     var body: some View {
-        List {
-            Section {
-                NavigationLink(destination: MagnifyAndBounceBackView(),
-                               label: {
-                    VStack(alignment: .leading) {
-                        Text(#"Magnification Gesture "Go Back""#)
-                        Text("Zoom in gesture")
-                            .fontWeight(.thin)
-                    }
-                })
+        NavigationStack {
+            List {
+                Section {
+                    NavigationLink(destination: MagnifyAndBounceBackView(),
+                                   label: {
+                        VStack(alignment: .leading) {
+                            Text(#"Magnification Gesture "Go Back""#)
+                            Text("Zoom in gesture")
+                                .fontWeight(.thin)
+                        }
+                    })
 
-                NavigationLink(destination: MagnifyAndKeepZoomLevelView(),
-                               label: {
-                    VStack(alignment: .leading) {
-                        Text(#"Magnification Gesture "Stay Still""#)
-                        Text("Zoom our gesture")
-                            .fontWeight(.thin)
-                    }
-                })
-                NavigationLink(destination: Text("Example 3"),
-                               label: {
-                    VStack(alignment: .leading) {
-                        Text("Magnification Gesture")
-                        Text("Store gesture state")
-                            .fontWeight(.thin)
-                    }
-                })
+                    NavigationLink(destination: MagnifyAndKeepZoomLevelView(),
+                                   label: {
+                        VStack(alignment: .leading) {
+                            Text(#"Magnification Gesture "Stay Still""#)
+                            Text("Zoom our gesture")
+                                .fontWeight(.thin)
+                        }
+                    })
+                    NavigationLink(destination: Text("Example 3"),
+                                   label: {
+                        VStack(alignment: .leading) {
+                            Text("Magnification Gesture")
+                            Text("Store gesture state")
+                                .fontWeight(.thin)
+                        }
+                    })
 
-            } header: {
-                Text("Magnification Gestures")
+                } header: {
+                    Text("Magnification Gestures")
+                }
             }
+            .listStyle(.plain)
         }
-        .listStyle(.plain)
     }
 }
 

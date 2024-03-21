@@ -1,6 +1,12 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Combined" : {
+
+    },
+    "Combined Gestures" : {
+
+    },
     "Drag Gestures" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -25,6 +31,9 @@
     "Example 3" : {
 
     },
+    "General" : {
+
+    },
     "General Gesrures" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -36,10 +45,13 @@
         }
       }
     },
-    "Gestures" : {
+    "General Gestures" : {
 
     },
     "Hello, World!" : {
+
+    },
+    "Magnification" : {
 
     },
     "Magnification Gesture" : {
@@ -67,6 +79,9 @@
     "Magnify and Keep Zoom Level" : {
 
     },
+    "Rotation" : {
+
+    },
     "Rotation Gesture" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -77,6 +92,9 @@
           }
         }
       }
+    },
+    "Rotation Gestures" : {
+
     },
     "Store gesture state" : {
 

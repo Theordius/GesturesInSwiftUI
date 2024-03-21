@@ -28,7 +28,7 @@
         }
       }
     },
-    "Example 3" : {
+    "Example 1 View" : {
 
     },
     "General" : {
@@ -55,6 +55,7 @@
 
     },
     "Magnification Gesture" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -64,16 +65,13 @@
         }
       }
     },
-    "Magnification Gesture \"Go Back\"" : {
-
-    },
-    "Magnification Gesture \"Stay Still\"" : {
-
-    },
     "Magnification Gestures" : {
 
     },
     "Magnify and bounce back" : {
+
+    },
+    "Magnify and Keep magnification value" : {
 
     },
     "Magnify and Keep Zoom Level" : {
@@ -96,13 +94,7 @@
     "Rotation Gestures" : {
 
     },
-    "Store gesture state" : {
-
-    },
-    "Zoom in gesture" : {
-
-    },
-    "Zoom our gesture" : {
+    "Storing Value" : {
 
     }
   },

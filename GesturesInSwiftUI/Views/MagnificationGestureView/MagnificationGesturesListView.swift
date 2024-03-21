@@ -9,48 +9,21 @@ import SwiftUI
 
 struct MagnificationGesturesListView: View {
     // MARK: - PROPERTIES
+    @State private var scaleFactor: CGFloat = 1.0
+    private var examples: [ExampleItem<AnyView>] = ExampleData.magnificationGestureExamples
 
     // MARK: - BODY
     var body: some View {
         NavigationStack {
-            List {
-                Section {
-                    NavigationLink(destination: MagnifyAndBounceBackView(),
-                                   label: {
-                        VStack(alignment: .leading) {
-                            Text(#"Magnification Gesture "Go Back""#)
-                            Text("Zoom in gesture")
-                                .fontWeight(.thin)
-                        }
-                    })
-
-                    NavigationLink(destination: MagnifyAndKeepZoomLevelView(),
-                                   label: {
-                        VStack(alignment: .leading) {
-                            Text(#"Magnification Gesture "Stay Still""#)
-                            Text("Zoom our gesture")
-                                .fontWeight(.thin)
-                        }
-                    })
-                    NavigationLink(destination: Text("Example 3"),
-                                   label: {
-                        VStack(alignment: .leading) {
-                            Text("Magnification Gesture")
-                            Text("Store gesture state")
-                                .fontWeight(.thin)
-                        }
-                    })
-
-                } header: {
-                    Text("Magnification Gestures")
-                }
-            }
-            .listStyle(.plain)
+            ExampleListView(
+                headerTitle: "Magnification Gestures",
+                examples: examples
+            )
         }
     }
 }
 
 // MARK: - PREVIEW
 #Preview {
-        MagnificationGesturesListView()
+    MagnificationGesturesListView()
 }

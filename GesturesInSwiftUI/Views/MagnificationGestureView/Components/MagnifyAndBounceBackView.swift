@@ -22,21 +22,21 @@ struct MagnifyAndBounceBackView: View {
     // MARK: - BODY
     var body: some View {
         NavigationStack {
-            VStack {
-                Spacer()
-                TextView(
-                    text: "Hello, World!",
-                    backgroundColor: .black,
-                    foregroundColor: .orange,
-                    cornerRadius: 10
-                )
-                .scaleEffect(magnifyBy)
-                .gesture(magnification)
-                .animation(.spring(), value: magnifyBy)
-                Spacer()
-            }
-            .navigationTitle("Magnify and bounce back")
-            .navigationBarTitleDisplayMode(.inline)
+                VStack {
+                    Spacer()
+                    TextView(
+                        text: "Hello, World!",
+                        backgroundColor: .black,
+                        foregroundColor: .orange,
+                        cornerRadius: 10
+                    )
+                    .scaleEffect(magnifyBy)
+                    .gesture(magnification)
+                    .animation(.spring(), value: magnifyBy)
+                    Spacer()
+                }
+                .navigationTitle("Magnify and bounce back")
+                .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

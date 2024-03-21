@@ -10,7 +10,7 @@
 
 import SwiftUI
 
-struct DragGestureWithKeepingPosition: View {
+struct DragGestureWithKeepingPositionView: View {
     // MARK: - PROPERTIES
     @State private var currentOffset: CGSize = .zero
     @State private var endOffset: CGSize = .zero
@@ -60,7 +60,6 @@ struct DragGestureWithKeepingPosition: View {
                     currentOffset = .zero
                 }
 
-
                 Spacer()
             }
         }
@@ -71,5 +70,5 @@ struct DragGestureWithKeepingPosition: View {
 
 // MARK: - PREVIEW
 #Preview {
-    DragGestureWithKeepingPosition()
+    DragGestureWithKeepingPositionView()
 }

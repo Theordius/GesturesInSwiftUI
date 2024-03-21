@@ -9,12 +9,11 @@ import SwiftUI
 
 struct MagnificationGesturesListView: View {
     // MARK: - PROPERTIES
-    @State private var scaleFactor: CGFloat = 1.0
-    @StateObject var viewModel = MagnificationGesturesViewModel()
+    @StateObject var viewModel: MagnificationGesturesViewModel
 
     // MARK: - BODY
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ExampleListView(
                 headerTitle: "Magnification Gestures",
                 examples: viewModel.examples
@@ -25,5 +24,5 @@ struct MagnificationGesturesListView: View {
 
 // MARK: - PREVIEW
 #Preview {
-    MagnificationGesturesListView()
+    MagnificationGesturesListView(viewModel: MagnificationGesturesViewModel(scaleFactor: .constant(1.0)))
 }

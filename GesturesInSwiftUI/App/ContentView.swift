@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-
-
+    @State private var scaleFactor: CGFloat = 1.0
+    @State private var endOffset: CGSize = .zero
+    
     var body: some View {
         TabView {
-            DragGesturesListView()
+            DragGesturesListView(viewModel: DragGesturesViewModel(endOffset: $endOffset))
                 .padding()
                 .tabItem {
                     Label(
@@ -21,8 +22,8 @@ struct ContentView: View {
                     )
                 }
                 .tag(1)
-
-                MagnificationGesturesListView()
+            
+            MagnificationGesturesListView(viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor))
                 .padding()
                 .tabItem {
                     Label(
@@ -31,8 +32,8 @@ struct ContentView: View {
                     )
                 }
                 .tag(2)
-
-             Text("Rotation Gestures")
+            
+            Text("Rotation Gestures")
                 .padding()
                 .tabItem {
                     Label(
@@ -42,14 +43,14 @@ struct ContentView: View {
                 }
                 .tag(3)
             Text("Combined Gestures")
-               .padding()
-               .tabItem {
-                   Label(
-                    "Combined",
-                    systemImage: "command.square"
-                   )
-               }
-               .tag(4)
+                .padding()
+                .tabItem {
+                    Label(
+                        "Combined",
+                        systemImage: "command.square"
+                    )
+                }
+                .tag(4)
         }
         .tint(.accentColor)
     }

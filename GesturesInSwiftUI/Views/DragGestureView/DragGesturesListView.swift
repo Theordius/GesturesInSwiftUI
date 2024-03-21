@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DragGesturesListView: View {
     // MARK: - PROPERTIES
-    @StateObject private var viewModel = DragGesturesViewModel()
+    @StateObject var viewModel: DragGesturesViewModel
 
     // MARK: - BODY
     var body: some View {
@@ -24,5 +24,7 @@ struct DragGesturesListView: View {
 
 // MARK: - PREVIEW
 #Preview {
-    DragGesturesListView()
+    DragGesturesListView(
+        viewModel: DragGesturesViewModel(endOffset: .constant(.zero))
+    )
 }

@@ -16,6 +16,6 @@ final class RotateGesturesViewModel: ObservableObject {
         angle: Binding<Angle> = .constant(Angle(degrees: 0.0))
     ) {
         self.angle = angle.wrappedValue
-        self.examples = ExampleModel<AnyView>.rotateGestureExample(angle: angle)
+        self.examples = ExampleModel<AnyView>.rotateGestureExamples(angle: angle)
     }
 }

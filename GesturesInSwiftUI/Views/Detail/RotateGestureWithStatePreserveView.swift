@@ -11,8 +11,6 @@ struct RotateGestureWithStatePreserveView: View {
     //MARK: - Properties:
     @Binding var angle: Angle
 
-    var tip = GearMenuTip()
-
     var rotation: some Gesture {
         RotateGesture()
             .onChanged { value in

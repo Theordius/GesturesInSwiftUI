@@ -52,7 +52,8 @@ struct ContentView: View {
                     )
                 }
                 .tag(3)
-                Text("General Gestures")
+
+              GeneralGesturesList(viewModel: GeneralGesturesViewModel())
                     .padding()
                     .tabItem {
                         Label(

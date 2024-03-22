@@ -21,18 +21,18 @@ extension ExampleModel {
     static func magnificationGesturesExamples(scaleFactor: Binding<CGFloat>) -> [ExampleModel<AnyView>] {
         return [
             .init(
-                title: "Magnify with bounce back",
-                subtitle: "Bounce back gesture",
+                title: "Example 1",
+                subtitle: "Magnification with bounce back effect",
                 destination: AnyView(MagnifyAndBounceBackView())
             ),
             .init(
-                title: "Magnify with keeping the value",
-                subtitle: "Keep magnification value",
+                title: "Example 2",
+                subtitle: "Keeping magnification value",
                 destination: AnyView(MagnifyAndKeepZoomLevelView())
             ),
             .init(
-                title: "Magnify with value storage",
-                subtitle: "Keep scale factor across the views",
+                title: "Example 3",
+                subtitle: "Magnification with scale preservation across the views",
                 destination: AnyView(MagnifyAndStoreValueView(scaleFactor: scaleFactor))
             )
         ]
@@ -41,40 +41,49 @@ extension ExampleModel {
     static func dragGesturesExamples(endOffset: Binding<CGSize>) -> [ExampleModel<AnyView>] {
         return [
             .init(
-                title: "Drag gesture with bounce back",
-                subtitle: "Draging with bounce back effect",
+                title: "Example 1",
+                subtitle: "Dragging with bounce back effect",
                 destination: AnyView(DragGestureWithBounceBackView())
             ),
             .init(
-                title: "Drag gesture with tracked possition",
-                subtitle: "Draging with and keeping item in place",
+                title: "Example 2",
+                subtitle: "Dragging without bouncing",
                 destination: AnyView(DragGestureWithoutBounceBackView())
             ),
             .init(
-                title: "Drag gesture with state saving",
-                subtitle: "Drag and save the position of the item",
+                title: "Example 3",
+                subtitle: "Drag item and preserve it's position across the views",
                 destination: AnyView(DragGestureWithStateSavingView(endOffset: endOffset))
             )
         ]
     }
 
-    static func rotateGestureExample(angle: Binding<Angle>) -> [ExampleModel<AnyView>] {
+    static func rotateGestureExamples(angle: Binding<Angle>) -> [ExampleModel<AnyView>] {
         return [
             .init(
-                title: "Rotate gesture with bounce back",
+                title: "Example 1",
                 subtitle: "Rotate back and return to starting value",
                 destination: AnyView(RotationGestureWithBounceBack())
             ),
             .init(
-                title: "Rotate without bouncing back",
+                title: "Example 2",
                 subtitle: "Keeping rotation value",
                 destination: AnyView(RotationGestureWithoutBounceBack())
             ),
             .init(
-                title: "Rotate with state preserving",
+                title: "Example 3",
                 subtitle: "Preserve the rotation angle",
                 destination: AnyView(RotateGestureWithStatePreserveView(angle: angle))
             )
+        ]
+    }
+    static func generalGesturesExamples() -> [ExampleModel<AnyView>] {
+        return [
+            .init(
+                title: "Example 1",
+                subtitle: "Combining gestures",
+                destination: AnyView(CombinedGesturesView())
+            ),
         ]
     }
 }

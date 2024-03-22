@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Bounce back gesture" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -11,12 +12,22 @@
         }
       }
     },
+    "Click Me!\nDrag Me!\nZoom Me! " : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kliknij Mnie!\\nPrzciągnij Mnie\\nPrzybliż Mnie!"
+          }
+        }
+      }
+    },
     "Click on the gear menu" : {
       "localizations" : {
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kliknij w to menu"
+            "value" : "Kliknij w ikonkę menu"
           }
         }
       }
@@ -43,6 +54,16 @@
         }
       }
     },
+    "Combining gestures" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łączenie gestów"
+          }
+        }
+      }
+    },
     "Drag And Drop" : {
       "localizations" : {
         "pl" : {
@@ -58,12 +79,13 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gesty Drag and Drop"
+            "value" : "Gesty Przeciągnij i upuść"
           }
         }
       }
     },
     "Drag and save the position of the item" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -74,6 +96,7 @@
       }
     },
     "Drag gesture with bounce back" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -94,6 +117,7 @@
       }
     },
     "Drag gesture with state saving" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -104,6 +128,7 @@
       }
     },
     "Drag gesture with tracked possition" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -120,6 +145,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gesty przeciągania"
+          }
+        }
+      }
+    },
+    "Drag item and preserve it's position across the views" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciągnij obiekt zachowując jego pozycję pomiędzy widokami"
           }
         }
       }
@@ -144,7 +179,28 @@
         }
       }
     },
+    "Dragging with bounce back effect" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciąganie z efektem odbicia"
+          }
+        }
+      }
+    },
+    "Dragging without bouncing" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przeciąganie bez efektu odbicia"
+          }
+        }
+      }
+    },
     "Draging with and keeping item in place" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -155,6 +211,7 @@
       }
     },
     "Draging with bounce back effect" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -194,11 +251,48 @@
         }
       }
     },
+    "Example 2" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 2"
+          }
+        }
+      }
+    },
+    "Example 3" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 3"
+          }
+        }
+      }
+    },
     "General" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne"
+          }
+        }
+      }
     },
     "General Gesrures" : {
       "extractionState" : "stale",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogólne Gesty"
+          }
+        }
+      }
+    },
+    "General gestures" : {
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -207,9 +301,6 @@
           }
         }
       }
-    },
-    "General Gestures" : {
-
     },
     "Hello, World!" : {
       "localizations" : {
@@ -222,6 +313,7 @@
       }
     },
     "Keep magnification value" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -232,6 +324,7 @@
       }
     },
     "Keep scale factor across the views" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -241,8 +334,25 @@
         }
       }
     },
+    "Keeping magnification value" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowując przybliżenie"
+          }
+        }
+      }
+    },
     "Keeping rotation value" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowując obrócenie"
+          }
+        }
+      }
     },
     "Magnification" : {
       "localizations" : {
@@ -275,12 +385,32 @@
         }
       }
     },
+    "Magnification with bounce back effect" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z efektem powrotu"
+          }
+        }
+      }
+    },
+    "Magnification with scale preservation across the views" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powiększenie z zachowaniem skali pomiędzy widokami"
+          }
+        }
+      }
+    },
     "Magnify and bounce back" : {
       "localizations" : {
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Powiekszenie i powrót"
+            "value" : "Powiekszenie i powrót do poprzedniego stanu"
           }
         }
       }
@@ -306,6 +436,7 @@
       }
     },
     "Magnify with bounce back" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -316,6 +447,7 @@
       }
     },
     "Magnify with keeping the value" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -326,6 +458,7 @@
       }
     },
     "Magnify with value storage" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -346,7 +479,14 @@
       }
     },
     "Preserve the rotation angle" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj kąt obrócenia"
+          }
+        }
+      }
     },
     "Preview" : {
       "localizations" : {
@@ -359,19 +499,24 @@
       }
     },
     "Rotate back and return to starting value" : {
-
-    },
-    "Rotate gesture with bounce back" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Powród do pierwotnego kąta"
+          }
+        }
+      }
     },
     "Rotate Me!" : {
-
-    },
-    "Rotate with state preserving" : {
-
-    },
-    "Rotate without bouncing back" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obróć Mnie!"
+          }
+        }
+      }
     },
     "Rotation" : {
       "localizations" : {
@@ -395,7 +540,14 @@
       }
     },
     "Rotation gestures" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty obracania"
+          }
+        }
+      }
     },
     "Rotation Gestures" : {
       "extractionState" : "stale",
@@ -409,10 +561,44 @@
       }
     },
     "Rotation with Bounce Back effect" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrócenie z efektem powrotu"
+          }
+        }
+      }
     },
     "Rotation Without Bounce Back" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrócenie bez efektu powrotu"
+          }
+        }
+      }
+    },
+    "Rotation Without State Preserving" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrócenie z zachowaniem wartości pomiędzy widokami"
+          }
+        }
+      }
+    },
+    "Rotation, Magnification, Draging" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obracanie, Powiększanie, Przeciąganie"
+          }
+        }
+      }
     },
     "Storing Value" : {
       "localizations" : {

@@ -12,6 +12,7 @@ struct ContentView: View {
     @Binding var language: String
     @State private var scaleFactor: CGFloat = 1.0
     @State private var endOffset: CGSize = .zero
+    @State private var angle: Angle = Angle(degrees: 1.0)
 
     var body: some View {
         NavigationStack {
@@ -28,30 +29,34 @@ struct ContentView: View {
                 }
                 .tag(1)
 
-                MagnificationGesturesListView(viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor))
-                    .padding()
-                    .tabItem {
-                        Label(
-                            "Magnification",
-                            systemImage: "arrow.up.left.and.down.right.magnifyingglass"
-                        )
-                    }
-                    .tag(2)
+                MagnificationGesturesListView(
+                    viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor)
+                )
+                .padding()
+                .tabItem {
+                    Label(
+                        "Magnification",
+                        systemImage: "arrow.up.left.and.down.right.magnifyingglass"
+                    )
+                }
+                .tag(2)
 
-                Text("Rotation Gestures")
+                RotationGesturesList(
+                    viewModel: RotateGesturesViewModel(angle: $angle)
+                )
+                .padding()
+                .tabItem {
+                    Label(
+                        "Rotation",
+                        systemImage: "crop.rotate"
+                    )
+                }
+                .tag(3)
+                Text("General Gestures")
                     .padding()
                     .tabItem {
                         Label(
-                            "Rotation",
-                            systemImage: "crop.rotate"
-                        )
-                    }
-                    .tag(3)
-                Text("Combined Gestures")
-                    .padding()
-                    .tabItem {
-                        Label(
-                            "Combined",
+                            "General",
                             systemImage: "command.square"
                         )
                     }

@@ -48,12 +48,32 @@ extension ExampleModel {
             .init(
                 title: "Drag gesture with tracked possition",
                 subtitle: "Draging with and keeping item in place",
-                destination: AnyView(DragGestureWithKeepingPositionView())
+                destination: AnyView(DragGestureWithoutBounceBackView())
             ),
             .init(
                 title: "Drag gesture with state saving",
                 subtitle: "Drag and save the position of the item",
                 destination: AnyView(DragGestureWithStateSavingView(endOffset: endOffset))
+            )
+        ]
+    }
+
+    static func rotateGestureExample(angle: Binding<Angle>) -> [ExampleModel<AnyView>] {
+        return [
+            .init(
+                title: "Rotate gesture with bounce back",
+                subtitle: "Rotate back and return to starting value",
+                destination: AnyView(RotationGestureWithBounceBack())
+            ),
+            .init(
+                title: "Rotate without bouncing back",
+                subtitle: "Keeping rotation value",
+                destination: AnyView(RotationGestureWithoutBounceBack())
+            ),
+            .init(
+                title: "Rotate with state preserving",
+                subtitle: "Preserve the rotation angle",
+                destination: AnyView(RotateGestureWithStatePreserveView(angle: angle))
             )
         ]
     }

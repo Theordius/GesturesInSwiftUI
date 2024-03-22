@@ -22,6 +22,7 @@
       }
     },
     "Combined" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -32,6 +33,7 @@
       }
     },
     "Combined Gestures" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -192,6 +194,9 @@
         }
       }
     },
+    "General" : {
+
+    },
     "General Gesrures" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -202,6 +207,9 @@
           }
         }
       }
+    },
+    "General Gestures" : {
+
     },
     "Hello, World!" : {
       "localizations" : {
@@ -232,6 +240,9 @@
           }
         }
       }
+    },
+    "Keeping rotation value" : {
+
     },
     "Magnification" : {
       "localizations" : {
@@ -334,6 +345,9 @@
         }
       }
     },
+    "Preserve the rotation angle" : {
+
+    },
     "Preview" : {
       "localizations" : {
         "pl" : {
@@ -343,6 +357,21 @@
           }
         }
       }
+    },
+    "Rotate back and return to starting value" : {
+
+    },
+    "Rotate gesture with bounce back" : {
+
+    },
+    "Rotate Me!" : {
+
+    },
+    "Rotate with state preserving" : {
+
+    },
+    "Rotate without bouncing back" : {
+
     },
     "Rotation" : {
       "localizations" : {
@@ -365,7 +394,11 @@
         }
       }
     },
+    "Rotation gestures" : {
+
+    },
     "Rotation Gestures" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -374,6 +407,12 @@
           }
         }
       }
+    },
+    "Rotation with Bounce Back effect" : {
+
+    },
+    "Rotation Without Bounce Back" : {
+
     },
     "Storing Value" : {
       "localizations" : {

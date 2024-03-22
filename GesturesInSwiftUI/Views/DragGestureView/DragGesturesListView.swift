@@ -18,7 +18,6 @@ struct DragGesturesListView: View {
                 headerTitle: "Drag and Drop Gestures",
                 examples: viewModel.examples
             )
-
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  MagnificationGestureView.swift
+//  MagnificationGesturesView.swift
 //  GesturesInSwiftUI
 //
 //  Created by Rafał Gęsior on 20/03/2024.

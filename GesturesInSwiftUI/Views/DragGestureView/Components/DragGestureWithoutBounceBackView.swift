@@ -10,7 +10,7 @@
 
 import SwiftUI
 
-struct DragGestureWithKeepingPositionView: View {
+struct DragGestureWithoutBounceBackView: View {
     // MARK: - PROPERTIES
     @State private var currentOffset: CGSize = .zero
     @State private var endOffset: CGSize = .zero
@@ -26,6 +26,9 @@ struct DragGestureWithKeepingPositionView: View {
     var body: some View {
         NavigationStack {
             VStack {
+
+                Spacer()
+                
                 SquaresGridView()
 
                 Spacer()
@@ -69,5 +72,5 @@ struct DragGestureWithKeepingPositionView: View {
 
 // MARK: - PREVIEW
 #Preview {
-    DragGestureWithKeepingPositionView()
+    DragGestureWithoutBounceBackView()
 }

@@ -312,6 +312,9 @@
         }
       }
     },
+    "Information" : {
+
+    },
     "Keep magnification value" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -624,6 +627,9 @@
 
     },
     "Test" : {
+
+    },
+    "This application was built with SwiftUI without usage of 3rd party libraries mostly for educational purposes and to show various possibilities of using gestures with swift UI" : {
 
     },
     "You can change the app language if needed" : {

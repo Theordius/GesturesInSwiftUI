@@ -16,8 +16,6 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            ZStack {
-                GradientBackground(colors: [.red, .blue], opacity: 0.8)
                 VStack(spacing: .zero) {
                     CustomNavigationBarView(
                         language: $language,
@@ -75,7 +73,11 @@ struct ContentView: View {
                     .tint(.accentColor)
                 }
                 .ignoresSafeArea(.all, edges: .top)
-            }
+                .onAppear {
+                    UITabBar.appearance().backgroundColor = UIColor.systemBackground
+                        UITabBar.appearance().isTranslucent = true
+
+                    }
         }
     }
 }

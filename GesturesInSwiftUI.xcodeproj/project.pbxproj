@@ -41,6 +41,9 @@
 		10F1279A2BADCE23004A2CC6 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */; };
 		10F1279C2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */; };
 		10F127A02BADD081004A2CC6 /* NavigationBarStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1279F2BADD081004A2CC6 /* NavigationBarStyleModifier.swift */; };
+		10F127A22BADEB40004A2CC6 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127A12BADEB40004A2CC6 /* AppInformationView.swift */; };
+		10F127A42BADEBA7004A2CC6 /* AppInformationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */; };
+		10F127A62BADEC19004A2CC6 /* AppInformationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +83,9 @@
 		10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
 		10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarHeaderView.swift; sourceTree = "<group>"; };
 		10F1279F2BADD081004A2CC6 /* NavigationBarStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarStyleModifier.swift; sourceTree = "<group>"; };
+		10F127A12BADEB40004A2CC6 /* AppInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationView.swift; sourceTree = "<group>"; };
+		10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationLabelView.swift; sourceTree = "<group>"; };
+		10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,9 @@
 				10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */,
 				10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */,
 				10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */,
+				10F127A12BADEB40004A2CC6 /* AppInformationView.swift */,
+				10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */,
+				10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -332,6 +341,7 @@
 				10F127652BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift in Sources */,
 				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
 				10F1278C2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift in Sources */,
+				10F127A62BADEC19004A2CC6 /* AppInformationRow.swift in Sources */,
 				10F1279C2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift in Sources */,
 				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,
 				10F127702BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift in Sources */,
@@ -342,12 +352,14 @@
 				10F127612BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift in Sources */,
 				10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */,
 				10F127812BAD9957004A2CC6 /* GearMenuTip.swift in Sources */,
+				10F127A42BADEBA7004A2CC6 /* AppInformationLabelView.swift in Sources */,
 				10F127732BAC4F5A004A2CC6 /* DragGesturesListView.swift in Sources */,
 				10F127902BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift in Sources */,
 				10F1278A2BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift in Sources */,
 				10F127672BAC4535004A2CC6 /* ExampleListView.swift in Sources */,
 				10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */,
 				10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */,
+				10F127A22BADEB40004A2CC6 /* AppInformationView.swift in Sources */,
 				10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */,
 				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,
 				10F1275C2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift in Sources */,

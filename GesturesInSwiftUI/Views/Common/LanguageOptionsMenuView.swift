@@ -10,7 +10,6 @@ import TipKit
 
 struct LanguageOptionsMenuView: View {
     // MARK: - PROPERTIES
-    @Environment(\.colorScheme) var colorScheme
     @Binding var language: String
 
     var gearMenuTip = GearMenuTip()
@@ -35,11 +34,7 @@ struct LanguageOptionsMenuView: View {
             }
         } label : {
             Image(systemName: "gearshape.fill")
-                .foregroundStyle(
-                    colorScheme == .dark
-                    ? .white
-                    : .black
-                )
+                .foregroundStyle(.black)
         }
     }
 }

@@ -11,6 +11,16 @@
         }
       }
     },
+    "Click on the gear menu" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kliknij w to menu"
+          }
+        }
+      }
+    },
     "Combined" : {
       "localizations" : {
         "pl" : {
@@ -381,6 +391,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podtytuł"
+          }
+        }
+      }
+    },
+    "You can change the app language if needed" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz zmienić język aplikacji jeśli chcesz"
           }
         }
       }

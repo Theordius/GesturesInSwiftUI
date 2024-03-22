@@ -6,17 +6,20 @@
 //
 
 import SwiftUI
+import TipKit
 
 struct LanguageOptionsMenuView: View {
     // MARK: - PROPERTIES
     @Environment(\.colorScheme) var colorScheme
     @Binding var language: String
 
+    var gearMenuTip = GearMenuTip()
+
     // MARK: - BODY
     var body: some View {
         languageMenu()
+            .popoverTip(gearMenuTip)
     }
-
 
     //MARK: - Private functions:
 

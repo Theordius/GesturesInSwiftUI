@@ -29,6 +29,7 @@
 		10F1277A2BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */; };
 		10F1277C2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1277B2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift */; };
 		10F1277E2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */; };
+		10F127812BAD9957004A2CC6 /* GearMenuTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127802BAD9957004A2CC6 /* GearMenuTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesturesViewModel.swift; sourceTree = "<group>"; };
 		10F1277B2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureWithStateSavingView.swift; sourceTree = "<group>"; };
 		10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsMenuView.swift; sourceTree = "<group>"; };
+		10F127802BAD9957004A2CC6 /* GearMenuTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearMenuTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				10F1274F2BAB00ED004A2CC6 /* App */,
 				10F1276D2BAC4AAC004A2CC6 /* Data */,
 				10F0FB4C2BAAFAAF00D4019B /* Views */,
+				10F1277F2BAD9937004A2CC6 /* Tips */,
 				10F0FB4F2BAAFD0B00D4019B /* SupportingFiles */,
 				10F0FB412BAAF9E400D4019B /* Assets.xcassets */,
 				10F0FB432BAAF9E400D4019B /* GesturesInSwiftUI.entitlements */,
@@ -227,6 +230,14 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		10F1277F2BAD9937004A2CC6 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				10F127802BAD9957004A2CC6 /* GearMenuTip.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +319,7 @@
 				10F1277A2BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift in Sources */,
 				10F127612BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift in Sources */,
 				10F127512BAB0154004A2CC6 /* ContentView.swift in Sources */,
+				10F127812BAD9957004A2CC6 /* GearMenuTip.swift in Sources */,
 				10F127732BAC4F5A004A2CC6 /* DragGesturesListView.swift in Sources */,
 				10F127672BAC4535004A2CC6 /* ExampleListView.swift in Sources */,
 				10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */,

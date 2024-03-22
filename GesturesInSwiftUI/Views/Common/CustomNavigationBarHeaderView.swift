@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CustomNavigationBarHeaderView: View {
+   
     //MARK: - PROPERTIES
     let title: LocalizedStringKey
 

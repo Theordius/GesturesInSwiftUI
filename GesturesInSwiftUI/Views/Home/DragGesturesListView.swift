@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DragGesturesListView: View {
+    
     // MARK: - PROPERTIES
     @StateObject var viewModel: DragGesturesViewModel
     

@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ExampleListView<Destination: View>: View {
+    
     // MARK: - PROPERTIES
     let headerTitle: LocalizedStringKey
     let examples: [ExampleModel<Destination>]
-
 
     // MARK: - BODY
     var body: some View {

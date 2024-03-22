@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MagnifyAndKeepZoomLevelView: View {
+    
     // MARK: - PROPERTIES
     @State private var currentZoom: CGFloat = 0.0
     @State private var totalZoom: CGFloat = 1.0
@@ -19,7 +20,7 @@ struct MagnifyAndKeepZoomLevelView: View {
             VStack {
                 Spacer()
                 TextView(
-                    text: "Hello, World!",
+                    text: "Zoom Me!",
                     backgroundColor: .black,
                     cornerRadius: 10
                 )

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DragGestureWithStateSavingView: View {
+   
     // MARK: - PROPERTIES
     @Binding var endOffset: CGSize
     @State private var currentOffset: CGSize = .zero
@@ -36,8 +37,7 @@ struct DragGestureWithStateSavingView: View {
                 .offset(offset)
                 .gesture(
                     DragGesture()
-                        .onChanged {
-                            value in
+                        .onChanged { value in
                             withAnimation(.spring()) {
                                 currentOffset = value.translation
                             }
@@ -60,7 +60,7 @@ struct DragGestureWithStateSavingView: View {
                 Spacer()
             }
         }
-        .navigationTitle("Drag Gesture with bounce back")
+        .navigationTitle("Drag Gesture with position being preserved")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct AppInformationView: View {
-    // MARK: - PROPERTIES
     
-    @Environment(\.presentationMode) var presentationMode
+    // MARK: - PROPERTIES
+     @Environment(\.presentationMode) var presentationMode
     
     //MARK: - BODY
     
@@ -52,7 +52,7 @@ struct AppInformationView: View {
                             AppInformationRow(name: "Developer", content: "Rafal Gesior")
                             AppInformationRow(name: "Compability", content: "iOS 17")
                             AppInformationRow(name: "Website", linkLabel: "Not provided", linkDestination: "")
-                            AppInformationRow(name: "SwiftUI", content: "5.9")
+                            AppInformationRow(name: "SwiftUI", content: "5.0")
                             AppInformationRow(name: "App Version", content: "1.0")
                             
                         } //: BOX

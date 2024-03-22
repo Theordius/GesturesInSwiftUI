@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AppInformationLabelView: View {
+    
     //MARK: - PROPERTIES
     var labelText: String
     var labelImage: String

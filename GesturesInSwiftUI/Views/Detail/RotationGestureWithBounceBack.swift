@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct RotationGestureWithBounceBack: View {
+
     // MARK: - PROPERTIES
-    
     @State private var angle = Angle(degrees: 0.0)
-    
+
     var rotation: some Gesture {
         RotateGesture()
             .onChanged { value in
@@ -23,7 +23,7 @@ struct RotationGestureWithBounceBack: View {
                 }
             }
     }
-    
+
     // MARK: - BODY
     var body: some View {
         NavigationStack {

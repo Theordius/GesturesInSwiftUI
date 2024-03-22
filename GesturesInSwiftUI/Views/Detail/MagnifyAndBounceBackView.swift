@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct MagnifyAndBounceBackView: View {
-    // MARK: - PROPERTIES
 
+    // MARK: - PROPERTIES
     @GestureState private var magnifyBy = 1.0
 
     var magnification: some Gesture {
@@ -25,7 +25,7 @@ struct MagnifyAndBounceBackView: View {
                 VStack {
                     Spacer()
                     TextView(
-                        text: "Hello, World!",
+                        text: "Zoom Me!",
                         backgroundColor: .black,
                         cornerRadius: 10
                     )
@@ -41,8 +41,6 @@ struct MagnifyAndBounceBackView: View {
 }
 
 // MARK: - PREVIEW
-struct MagnificationGoBackView_Previews: PreviewProvider {
-    static var previews: some View {
-        MagnifyAndBounceBackView()
-    }
+#Preview {
+    MagnifyAndBounceBackView()
 }

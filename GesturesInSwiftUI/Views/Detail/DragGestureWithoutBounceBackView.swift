@@ -28,7 +28,7 @@ struct DragGestureWithoutBounceBackView: View {
             VStack {
 
                 Spacer()
-                
+
                 SquaresGridView()
 
                 Spacer()
@@ -41,8 +41,7 @@ struct DragGestureWithoutBounceBackView: View {
                 .offset(offset)
                 .gesture(
                     DragGesture()
-                        .onChanged {
-                            value in
+                        .onChanged { value in
                             withAnimation(.spring()) {
                                 currentOffset = value.translation
                             }
@@ -65,7 +64,7 @@ struct DragGestureWithoutBounceBackView: View {
                 Spacer()
             }
         }
-        .navigationTitle("Drag Gesture with bounce back")
+        .navigationTitle("Drag Gesture without bounce back")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

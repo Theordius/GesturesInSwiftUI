@@ -24,7 +24,7 @@ struct MagnifyAndStoreValueView: View {
             VStack {
                 Spacer()
                 TextView(
-                    text: "Storing Value",
+                    text: "Zoom Me!",
                     backgroundColor: .black,
                     cornerRadius: 10
                 )
@@ -45,7 +45,7 @@ struct MagnifyAndStoreValueView: View {
                 )
                 Spacer()
             }
-            .navigationTitle("Magnify and Keep magnification value")
+            .navigationTitle("Magnify and preserve magnification value")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

@@ -9,6 +9,7 @@ import SwiftUI
 import TipKit
 
 struct LanguageOptionsMenuView: View {
+   
     // MARK: - PROPERTIES
     @Binding var language: String
 

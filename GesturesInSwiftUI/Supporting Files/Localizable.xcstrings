@@ -116,6 +116,9 @@
         }
       }
     },
+    "Drag Gesture with position being preserved" : {
+
+    },
     "Drag gesture with state saving" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -137,6 +140,9 @@
           }
         }
       }
+    },
+    "Drag Gesture without bounce back" : {
+
     },
     "Drag Gestures" : {
       "extractionState" : "stale",
@@ -303,6 +309,7 @@
       }
     },
     "Hello, World!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -313,7 +320,14 @@
       }
     },
     "Information" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informacje"
+          }
+        }
+      }
     },
     "Keep magnification value" : {
       "extractionState" : "stale",
@@ -419,6 +433,7 @@
       }
     },
     "Magnify and Keep magnification value" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -437,6 +452,9 @@
           }
         }
       }
+    },
+    "Magnify and preserve magnification value" : {
+
     },
     "Magnify with bounce back" : {
       "extractionState" : "stale",
@@ -604,6 +622,7 @@
       }
     },
     "Storing Value" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -624,13 +643,34 @@
       }
     },
     "Swift UI Gestures" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesty w SwiftUI"
+          }
+        }
+      }
     },
     "Test" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test"
+          }
+        }
+      }
     },
     "This application was built with SwiftUI without usage of 3rd party libraries mostly for educational purposes and to show various possibilities of using gestures with swift UI" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta aplikcja zostalła zbudowana przy użyciu SwiftUI bez używania osobnych bibliotek głównie na potrzeby szkoleniowe i żeby pokaząc różne możliwości wykorzystania SwiftUI"
+          }
+        }
+      }
     },
     "You can change the app language if needed" : {
       "localizations" : {
@@ -641,6 +681,9 @@
           }
         }
       }
+    },
+    "Zoom Me!" : {
+
     }
   },
   "version" : "1.0"

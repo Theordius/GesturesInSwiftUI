@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MagnificationGesturesListView: View {
+   
     // MARK: - PROPERTIES
     @StateObject var viewModel: MagnificationGesturesViewModel
 
@@ -24,5 +25,7 @@ struct MagnificationGesturesListView: View {
 
 // MARK: - PREVIEW
 #Preview {
-    MagnificationGesturesListView(viewModel: MagnificationGesturesViewModel(scaleFactor: .constant(1.0)))
+    MagnificationGesturesListView(
+        viewModel: MagnificationGesturesViewModel(scaleFactor: .constant(1.0))
+    )
 }

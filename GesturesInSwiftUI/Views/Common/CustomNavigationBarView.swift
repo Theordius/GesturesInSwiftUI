@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CustomNavigationBarView: View {
+   
     //MARK: - PROPERTIES
     @Binding var language: String
     @State private var isShowingInformation = false

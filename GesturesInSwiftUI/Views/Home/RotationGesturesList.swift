@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct RotationGesturesList: View {
+    
     // MARK: - PROPERTIES
     @StateObject var viewModel: RotateGesturesViewModel
 

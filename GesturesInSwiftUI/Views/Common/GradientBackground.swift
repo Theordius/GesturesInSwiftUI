@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GradientBackground: View {
+    
     // MARK: - PROPERTIES
     let colors: [Color]
     let opacity: CGFloat

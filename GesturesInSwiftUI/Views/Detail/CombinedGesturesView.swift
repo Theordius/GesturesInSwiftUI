@@ -72,14 +72,12 @@ struct CombinedGesturesView: View {
                 totalZoom = 1.0
             }
         }
-        .navigationTitle("Rotation, Magnification, Draging")
+        .navigationTitle("Rotation, Magnification, Dragging")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 // MARK: - PREVIEW
-struct GeneralGesturesView_Previews: PreviewProvider {
-    static var previews: some View {
-        CombinedGesturesView()
-    }
+#Preview {
+    CombinedGesturesView()
 }

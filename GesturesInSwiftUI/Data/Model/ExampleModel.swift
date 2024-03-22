@@ -73,7 +73,7 @@ extension ExampleModel {
             .init(
                 title: "Example 3",
                 subtitle: "Preserve the rotation angle",
-                destination: AnyView(RotateGestureWithStatePreserveView(angle: angle))
+                destination: AnyView(RotatingGestureWithStatePreserveView(angle: angle))
             )
         ]
     }

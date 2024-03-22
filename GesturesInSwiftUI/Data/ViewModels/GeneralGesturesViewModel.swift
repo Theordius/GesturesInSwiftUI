@@ -11,7 +11,6 @@ import SwiftUI
 final class GeneralGesturesViewModel: ObservableObject {
     @Published var examples: [ExampleModel<AnyView>] = []
 
-
     init(
 
     ) {

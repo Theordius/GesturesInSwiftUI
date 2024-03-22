@@ -34,7 +34,7 @@
 		10F127852BADA102004A2CC6 /* RotationGesturesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127842BADA102004A2CC6 /* RotationGesturesList.swift */; };
 		10F127872BADA127004A2CC6 /* RotateGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127862BADA127004A2CC6 /* RotateGesturesViewModel.swift */; };
 		10F1278A2BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127892BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift */; };
-		10F1278C2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1278B2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift */; };
+		10F1278C2BADAD6F004A2CC6 /* RotatingGestureWithStatePreserveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1278B2BADAD6F004A2CC6 /* RotatingGestureWithStatePreserveView.swift */; };
 		10F1278E2BADB390004A2CC6 /* GeneralGesturesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1278D2BADB390004A2CC6 /* GeneralGesturesList.swift */; };
 		10F127902BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1278F2BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift */; };
 		10F127942BADB529004A2CC6 /* CombinedGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127932BADB529004A2CC6 /* CombinedGesturesView.swift */; };
@@ -76,7 +76,7 @@
 		10F127842BADA102004A2CC6 /* RotationGesturesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGesturesList.swift; sourceTree = "<group>"; };
 		10F127862BADA127004A2CC6 /* RotateGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGesturesViewModel.swift; sourceTree = "<group>"; };
 		10F127892BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureWithoutBounceBack.swift; sourceTree = "<group>"; };
-		10F1278B2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateGestureWithStatePreserveView.swift; sourceTree = "<group>"; };
+		10F1278B2BADAD6F004A2CC6 /* RotatingGestureWithStatePreserveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingGestureWithStatePreserveView.swift; sourceTree = "<group>"; };
 		10F1278D2BADB390004A2CC6 /* GeneralGesturesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralGesturesList.swift; sourceTree = "<group>"; };
 		10F1278F2BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralGesturesViewModel.swift; sourceTree = "<group>"; };
 		10F127932BADB529004A2CC6 /* CombinedGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedGesturesView.swift; sourceTree = "<group>"; };
@@ -240,7 +240,7 @@
 				10F127932BADB529004A2CC6 /* CombinedGesturesView.swift */,
 				10F127822BAD9F17004A2CC6 /* RotationGestureWithBounceBack.swift */,
 				10F127892BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift */,
-				10F1278B2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift */,
+				10F1278B2BADAD6F004A2CC6 /* RotatingGestureWithStatePreserveView.swift */,
 				10F1275E2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift */,
 				10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */,
 				10F127642BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift */,
@@ -340,7 +340,7 @@
 				10F127752BAC5494004A2CC6 /* DragGestureWithoutBounceBackView.swift in Sources */,
 				10F127652BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift in Sources */,
 				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
-				10F1278C2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift in Sources */,
+				10F1278C2BADAD6F004A2CC6 /* RotatingGestureWithStatePreserveView.swift in Sources */,
 				10F127A62BADEC19004A2CC6 /* AppInformationRow.swift in Sources */,
 				10F1279C2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift in Sources */,
 				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,

@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct SquaresGridView: View {
+   
     // MARK: - PROPERTIES
-    
+
     // MARK: - BODY
     var body: some View {
         Grid {

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RotateGestureWithStatePreserveView: View {
+struct RotatingGestureWithStatePreserveView: View {
     //MARK: - Properties:
     @Binding var angle: Angle
 
@@ -41,5 +41,5 @@ struct RotateGestureWithStatePreserveView: View {
 }
 
 #Preview {
-    RotateGestureWithStatePreserveView(angle: .constant(Angle(degrees: 0.0)))
+    RotatingGestureWithStatePreserveView(angle: .constant(Angle(degrees: 0.0)))
 }

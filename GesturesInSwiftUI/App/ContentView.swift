@@ -16,58 +16,65 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack {
-            TabView {
-                DragGesturesListView(
-                    viewModel: DragGesturesViewModel(endOffset: $endOffset)
-                )
-                .padding()
-                .tabItem {
-                    Label(
-                        "Drag And Drop",
-                        systemImage: "arrow.up.right"
+            ZStack {
+                GradientBackground(colors: [.red, .blue], opacity: 0.8)
+                VStack(spacing: .zero) {
+                    CustomNavigationBarView(
+                        language: $language,
+                        title: "Swift UI Gestures"
                     )
-                }
-                .tag(1)
+                        .modifier(NavigationBarStyleModifier())
 
-                MagnificationGesturesListView(
-                    viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor)
-                )
-                .padding()
-                .tabItem {
-                    Label(
-                        "Magnification",
-                        systemImage: "arrow.up.left.and.down.right.magnifyingglass"
-                    )
-                }
-                .tag(2)
-
-                RotationGesturesList(
-                    viewModel: RotateGesturesViewModel(angle: $angle)
-                )
-                .padding()
-                .tabItem {
-                    Label(
-                        "Rotation",
-                        systemImage: "crop.rotate"
-                    )
-                }
-                .tag(3)
-
-              GeneralGesturesList(viewModel: GeneralGesturesViewModel())
-                    .padding()
-                    .tabItem {
-                        Label(
-                            "General",
-                            systemImage: "command.square"
+                    TabView {
+                        DragGesturesListView(
+                            viewModel: DragGesturesViewModel(endOffset: $endOffset)
                         )
+
+                        .tabItem {
+                            Label(
+                                "Drag And Drop",
+                                systemImage: "arrow.up.right"
+                            )
+                        }
+                        .tag(1)
+
+                        MagnificationGesturesListView(
+                            viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor)
+                        )
+
+                        .tabItem {
+                            Label(
+                                "Magnification",
+                                systemImage: "arrow.up.left.and.down.right.magnifyingglass"
+                            )
+                        }
+                        .tag(2)
+
+                        RotationGesturesList(
+                            viewModel: RotateGesturesViewModel(angle: $angle)
+                        )
+
+                        .tabItem {
+                            Label(
+                                "Rotation",
+                                systemImage: "crop.rotate"
+                            )
+                        }
+                        .tag(3)
+
+                        GeneralGesturesList(viewModel: GeneralGesturesViewModel())
+
+                            .tabItem {
+                                Label(
+                                    "General",
+                                    systemImage: "command.square"
+                                )
+                            }
+                            .tag(4)
                     }
-                    .tag(4)
-            }
-            .tint(.accentColor)
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    LanguageOptionsMenuView(language: $language)
+                    .tint(.accentColor)
                 }
+                .ignoresSafeArea(.all, edges: .top)
             }
         }
     }

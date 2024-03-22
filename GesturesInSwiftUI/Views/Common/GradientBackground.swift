@@ -23,6 +23,7 @@ struct GradientBackground: View {
 
     // MARK: - BODY
     var body: some View {
+        ZStack {
             LinearGradient(
                 colors: colors,
                 startPoint: .topLeading,
@@ -30,6 +31,7 @@ struct GradientBackground: View {
             )
             .opacity(opacity)
             .ignoresSafeArea()
+        }
     }
 }
 

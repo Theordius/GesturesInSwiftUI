@@ -38,6 +38,9 @@
 		10F1278E2BADB390004A2CC6 /* GeneralGesturesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1278D2BADB390004A2CC6 /* GeneralGesturesList.swift */; };
 		10F127902BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1278F2BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift */; };
 		10F127942BADB529004A2CC6 /* CombinedGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127932BADB529004A2CC6 /* CombinedGesturesView.swift */; };
+		10F1279A2BADCE23004A2CC6 /* CustomNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */; };
+		10F1279C2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */; };
+		10F127A02BADD081004A2CC6 /* NavigationBarStyleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1279F2BADD081004A2CC6 /* NavigationBarStyleModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +77,9 @@
 		10F1278D2BADB390004A2CC6 /* GeneralGesturesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralGesturesList.swift; sourceTree = "<group>"; };
 		10F1278F2BADB3B0004A2CC6 /* GeneralGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralGesturesViewModel.swift; sourceTree = "<group>"; };
 		10F127932BADB529004A2CC6 /* CombinedGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedGesturesView.swift; sourceTree = "<group>"; };
+		10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarView.swift; sourceTree = "<group>"; };
+		10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBarHeaderView.swift; sourceTree = "<group>"; };
+		10F1279F2BADD081004A2CC6 /* NavigationBarStyleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarStyleModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				10F0FB4C2BAAFAAF00D4019B /* Views */,
 				10F1277F2BAD9937004A2CC6 /* Tips */,
 				10F0FB4F2BAAFD0B00D4019B /* Supporting Files */,
+				10F1279D2BADD066004A2CC6 /* Utils */,
 				10F0FB412BAAF9E400D4019B /* Assets.xcassets */,
 				10F0FB432BAAF9E400D4019B /* GesturesInSwiftUI.entitlements */,
 				10F0FB442BAAF9E400D4019B /* Preview Content */,
@@ -162,6 +169,8 @@
 				10F127662BAC4535004A2CC6 /* ExampleListView.swift */,
 				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
 				10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */,
+				10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */,
+				10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -228,6 +237,22 @@
 				10F127642BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		10F1279D2BADD066004A2CC6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				10F1279E2BADD06C004A2CC6 /* Modifiers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		10F1279E2BADD06C004A2CC6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				10F1279F2BADD081004A2CC6 /* NavigationBarStyleModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,10 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F127A02BADD081004A2CC6 /* NavigationBarStyleModifier.swift in Sources */,
 				10F127752BAC5494004A2CC6 /* DragGestureWithoutBounceBackView.swift in Sources */,
 				10F127652BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift in Sources */,
 				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
 				10F1278C2BADAD6F004A2CC6 /* RotateGestureWithStatePreserveView.swift in Sources */,
+				10F1279C2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift in Sources */,
 				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,
 				10F127702BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift in Sources */,
 				10F127692BAC45AF004A2CC6 /* ExampleModel.swift in Sources */,
@@ -324,6 +351,7 @@
 				10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */,
 				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,
 				10F1275C2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift in Sources */,
+				10F1279A2BADCE23004A2CC6 /* CustomNavigationBarView.swift in Sources */,
 				10F1277C2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift in Sources */,
 				10F1278E2BADB390004A2CC6 /* GeneralGesturesList.swift in Sources */,
 				10F1277E2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift in Sources */,

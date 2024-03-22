@@ -17,7 +17,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kliknij Mnie!\\nPrzciągnij Mnie\\nPrzybliż Mnie!"
+            "value" : "Kliknij Mnie!\nPrzciągnij Mnie\nPrzybliż Mnie!"
           }
         }
       }
@@ -619,6 +619,12 @@
           }
         }
       }
+    },
+    "Swift UI Gestures" : {
+
+    },
+    "Test" : {
+
     },
     "You can change the app language if needed" : {
       "localizations" : {

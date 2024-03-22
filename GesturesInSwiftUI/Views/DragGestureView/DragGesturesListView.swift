@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct DragGesturesListView: View {
-    // MARK: - PROPERTIES
+    // MARK: - PROPERTIES  @Binding var language: String
     @StateObject var viewModel: DragGesturesViewModel
-
+    
     // MARK: - BODY
     var body: some View {
         NavigationStack {
@@ -18,6 +18,7 @@ struct DragGesturesListView: View {
                 headerTitle: "Drag and Drop Gestures",
                 examples: viewModel.examples
             )
+
         }
     }
 }

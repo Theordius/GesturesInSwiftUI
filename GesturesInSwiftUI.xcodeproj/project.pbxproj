@@ -28,6 +28,7 @@
 		10F127782BAC5D72004A2CC6 /* DragGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127772BAC5D72004A2CC6 /* DragGesturesViewModel.swift */; };
 		10F1277A2BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */; };
 		10F1277C2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1277B2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift */; };
+		10F1277E2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		10F127772BAC5D72004A2CC6 /* DragGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesturesViewModel.swift; sourceTree = "<group>"; };
 		10F127792BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesturesViewModel.swift; sourceTree = "<group>"; };
 		10F1277B2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureWithStateSavingView.swift; sourceTree = "<group>"; };
+		10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */,
 				10F127662BAC4535004A2CC6 /* ExampleListView.swift */,
 				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
+				10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,
 				10F1275C2BAB0C63004A2CC6 /* MagnificationGesturesListView.swift in Sources */,
 				10F1277C2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift in Sources */,
+				10F1277E2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift in Sources */,
 				10F127782BAC5D72004A2CC6 /* DragGesturesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

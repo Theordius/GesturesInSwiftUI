@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct GesturesInSwiftUIApp: App {
+
+    @AppStorage("language") var language: String = "en"
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(language: $language)
+            .environment(\.locale, Locale(identifier: language))
         }
     }
 }

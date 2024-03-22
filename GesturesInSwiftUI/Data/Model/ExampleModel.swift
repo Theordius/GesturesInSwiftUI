@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ExampleModel<Destination: View>: Identifiable {
     let id = UUID()
-    let title: String
-    let subtitle: String
+    let title: LocalizedStringKey
+    let subtitle: LocalizedStringKey
     let destination: Destination
 }
 

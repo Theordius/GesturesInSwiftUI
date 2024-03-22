@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ExampleListView<Destination: View>: View {
     // MARK: - PROPERTIES
-    let headerTitle: String
+    let headerTitle: LocalizedStringKey
     let examples: [ExampleModel<Destination>]
 
 

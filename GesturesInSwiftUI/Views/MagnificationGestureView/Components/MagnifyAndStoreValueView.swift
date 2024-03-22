@@ -26,7 +26,6 @@ struct MagnifyAndStoreValueView: View {
                 TextView(
                     text: "Storing Value",
                     backgroundColor: .black,
-                    foregroundColor: .orange,
                     cornerRadius: 10
                 )
                 .scaleEffect(sumOfFactors)

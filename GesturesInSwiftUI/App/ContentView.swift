@@ -12,47 +12,48 @@ struct ContentView: View {
     @State private var endOffset: CGSize = .zero
     
     var body: some View {
-        TabView {
-            DragGesturesListView(viewModel: DragGesturesViewModel(endOffset: $endOffset))
-                .padding()
-                .tabItem {
-                    Label(
-                        "Drag And Drop",
-                        systemImage: "arrow.up.right"
-                    )
-                }
-                .tag(1)
-            
-            MagnificationGesturesListView(viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor))
-                .padding()
-                .tabItem {
-                    Label(
-                        "Magnification",
-                        systemImage: "arrow.up.left.and.down.right.magnifyingglass"
-                    )
-                }
-                .tag(2)
-            
-            Text("Rotation Gestures")
-                .padding()
-                .tabItem {
-                    Label(
-                        "Rotation",
-                        systemImage: "crop.rotate"
-                    )
-                }
-                .tag(3)
-            Text("Combined Gestures")
-                .padding()
-                .tabItem {
-                    Label(
-                        "Combined",
-                        systemImage: "command.square"
-                    )
-                }
-                .tag(4)
-        }
-        .tint(.accentColor)
+            TabView {
+                DragGesturesListView(viewModel: DragGesturesViewModel(endOffset: $endOffset))
+                    .padding()
+                    .tabItem {
+                        Label(
+                            "Drag And Drop",
+                            systemImage: "arrow.up.right"
+                        )
+                    }
+                    .tag(1)
+                
+                MagnificationGesturesListView(viewModel: MagnificationGesturesViewModel(scaleFactor: $scaleFactor))
+                    .padding()
+                    .tabItem {
+                        Label(
+                            "Magnification",
+                            systemImage: "arrow.up.left.and.down.right.magnifyingglass"
+                        )
+                    }
+                    .tag(2)
+                
+                Text("Rotation Gestures")
+                    .padding()
+                    .tabItem {
+                        Label(
+                            "Rotation",
+                            systemImage: "crop.rotate"
+                        )
+                    }
+                    .tag(3)
+                Text("Combined Gestures")
+                    .padding()
+                    .tabItem {
+                        Label(
+                            "Combined",
+                            systemImage: "command.square"
+                        )
+                    }
+                    .tag(4)
+            }
+            .tint(.accentColor)
+
     }
 }
 

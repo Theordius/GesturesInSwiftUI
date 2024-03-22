@@ -21,7 +21,6 @@ struct MagnifyAndKeepZoomLevelView: View {
                 TextView(
                     text: "Hello, World!",
                     backgroundColor: .black,
-                    foregroundColor: .orange,
                     cornerRadius: 10
                 )
                 

@@ -109,11 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				10F127582BAB0A78004A2CC6 /* Common */,
-				10F1275A2BAB0AAC004A2CC6 /* RotationGestureView */,
 				10F127572BAB0A6D004A2CC6 /* DragGestureView */,
 				10F127592BAB0A90004A2CC6 /* GeneralGesturesView */,
+				10F1275A2BAB0AAC004A2CC6 /* RotationGestureView */,
 				10F127562BAB0A5A004A2CC6 /* MagnificationGestureView */,
-				10F0FB542BAAFF9900D4019B /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,14 +123,6 @@
 				10F0FB502BAAFD3100D4019B /* Localizable.xcstrings */,
 			);
 			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		10F0FB542BAAFF9900D4019B /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		10F1274F2BAB00ED004A2CC6 /* App */ = {
@@ -168,6 +159,7 @@
 				10F127542BAB083E004A2CC6 /* SquaresGridView.swift */,
 				10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */,
 				10F127662BAC4535004A2CC6 /* ExampleListView.swift */,
+				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";

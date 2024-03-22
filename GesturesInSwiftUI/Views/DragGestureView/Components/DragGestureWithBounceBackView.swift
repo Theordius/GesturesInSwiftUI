@@ -9,20 +9,22 @@ import SwiftUI
 
 struct DragGestureWithBounceBackView: View {
     // MARK: - PROPERTIES
+    @Environment(\.colorScheme) var colorScheme
     @State private var offset: CGSize = .zero
-    
+
     // MARK: - BODY
     var body: some View {
         NavigationStack {
             VStack {
                 SquaresGridView()
-                
+
                 Spacer()
-                
+
                 TextView(
                     text: "Drag Me!",
-                    backgroundColor: .black.opacity(0.85),
-                    foregroundColor: .orange.opacity(0.85),
+                    backgroundColor: colorScheme == .dark
+                    ? .white.opacity(0.45)
+                    : .black.opacity(0.85),
                     cornerRadius: 10
                 )
                 .offset(offset)
@@ -37,7 +39,7 @@ struct DragGestureWithBounceBackView: View {
                             }
                         }
                 )
-                
+
                 Spacer()
             }
         }

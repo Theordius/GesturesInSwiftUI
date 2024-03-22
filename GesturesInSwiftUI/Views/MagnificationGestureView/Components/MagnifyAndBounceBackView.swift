@@ -27,7 +27,6 @@ struct MagnifyAndBounceBackView: View {
                     TextView(
                         text: "Hello, World!",
                         backgroundColor: .black,
-                        foregroundColor: .orange,
                         cornerRadius: 10
                     )
                     .scaleEffect(magnifyBy)

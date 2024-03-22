@@ -33,7 +33,6 @@ struct DragGestureWithKeepingPositionView: View {
                 TextView(
                     text: "Drag Me!",
                     backgroundColor: .black.opacity(0.75),
-                    foregroundColor: .orange.opacity(1.0),
                     cornerRadius: 10
                 )
                 .offset(offset)

@@ -22,6 +22,8 @@ struct DragGestureWithStateSavingView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Spacer()
+                
                 SquaresGridView()
 
                 Spacer()
@@ -29,7 +31,6 @@ struct DragGestureWithStateSavingView: View {
                 TextView(
                     text: "Drag Me!",
                     backgroundColor: .black.opacity(0.85),
-                    foregroundColor: .orange.opacity(0.85),
                     cornerRadius: 10
                 )
                 .offset(offset)

@@ -9,10 +9,11 @@ import SwiftUI
 
 struct SquaresGridRow: View {
     // MARK: - PROPERTIES
+
     let colors: [Color]
     let dimension: CGFloat
     let cornerRadius: CGFloat
-    
+
     init(
         colors: [Color],
         dimension: CGFloat = 50,
@@ -22,19 +23,19 @@ struct SquaresGridRow: View {
         self.dimension = dimension
         self.cornerRadius = cornerRadius
     }
-    
+
     // MARK: - BODY
     var body: some View {
-            GridRow {
-                ForEach(colors, id: \.self) { color in
-                  color
-                        .frame(
-                            width: dimension,
-                            height: dimension
-                        )
-                        .clipShape(
-                            .rect(cornerRadius: cornerRadius)
-                        )
+        GridRow {
+            ForEach(colors, id: \.self) { color in
+                color
+                    .frame(
+                        width: dimension,
+                        height: dimension
+                    )
+                    .clipShape(
+                        .rect(cornerRadius: cornerRadius)
+                    )
             }
         }
     }

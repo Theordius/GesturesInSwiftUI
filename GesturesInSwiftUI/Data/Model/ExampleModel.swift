@@ -84,6 +84,11 @@ extension ExampleModel {
                 subtitle: "Combining gestures",
                 destination: AnyView(CombinedGesturesView())
             ),
+            .init(
+                title: "Example 2",
+                subtitle: "Long press gesture",
+                destination: AnyView(LongPressGestureView())
+            )
         ]
     }
 }

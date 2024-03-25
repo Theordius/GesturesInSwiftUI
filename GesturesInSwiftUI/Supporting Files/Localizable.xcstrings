@@ -371,6 +371,9 @@
         }
       }
     },
+    "Long press gesture" : {
+
+    },
     "Magnification" : {
       "localizations" : {
         "pl" : {
@@ -611,7 +614,11 @@
         }
       }
     },
+    "Rotation, Magnification, Dragging" : {
+
+    },
     "Rotation, Magnification, Draging" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -651,6 +658,9 @@
           }
         }
       }
+    },
+    "test" : {
+
     },
     "Test" : {
       "localizations" : {

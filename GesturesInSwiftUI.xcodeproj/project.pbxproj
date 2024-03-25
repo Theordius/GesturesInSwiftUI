@@ -44,6 +44,9 @@
 		10F127A22BADEB40004A2CC6 /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127A12BADEB40004A2CC6 /* AppInformationView.swift */; };
 		10F127A42BADEBA7004A2CC6 /* AppInformationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */; };
 		10F127A62BADEC19004A2CC6 /* AppInformationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */; };
+		10F8EAD02BB17885006516F9 /* LongPressGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8EACF2BB17885006516F9 /* LongPressGestureView.swift */; };
+		10F8EAD22BB17F0F006516F9 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8EAD12BB17F0F006516F9 /* Action.swift */; };
+		10F8EAD42BB18014006516F9 /* ActionMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F8EAD32BB18014006516F9 /* ActionMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,9 @@
 		10F127A12BADEB40004A2CC6 /* AppInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationView.swift; sourceTree = "<group>"; };
 		10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationLabelView.swift; sourceTree = "<group>"; };
 		10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationRow.swift; sourceTree = "<group>"; };
+		10F8EACF2BB17885006516F9 /* LongPressGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureView.swift; sourceTree = "<group>"; };
+		10F8EAD12BB17F0F006516F9 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		10F8EAD32BB18014006516F9 /* ActionMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +186,8 @@
 				10F127A12BADEB40004A2CC6 /* AppInformationView.swift */,
 				10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */,
 				10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */,
+				10F8EAD12BB17F0F006516F9 /* Action.swift */,
+				10F8EAD32BB18014006516F9 /* ActionMenu.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -244,6 +252,7 @@
 				10F1275E2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift */,
 				10F127602BAB1476004A2CC6 /* MagnifyAndKeepZoomLevelView.swift */,
 				10F127642BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift */,
+				10F8EACF2BB17885006516F9 /* LongPressGestureView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -337,8 +346,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F127A02BADD081004A2CC6 /* NavigationBarStyleModifier.swift in Sources */,
+				10F8EAD22BB17F0F006516F9 /* Action.swift in Sources */,
 				10F127752BAC5494004A2CC6 /* DragGestureWithoutBounceBackView.swift in Sources */,
 				10F127652BAC3A89004A2CC6 /* MagnifyAndStoreValueView.swift in Sources */,
+				10F8EAD42BB18014006516F9 /* ActionMenu.swift in Sources */,
 				10F0FB562BAAFFDF00D4019B /* GradientBackground.swift in Sources */,
 				10F1278C2BADAD6F004A2CC6 /* RotatingGestureWithStatePreserveView.swift in Sources */,
 				10F127A62BADEC19004A2CC6 /* AppInformationRow.swift in Sources */,
@@ -359,6 +370,7 @@
 				10F127672BAC4535004A2CC6 /* ExampleListView.swift in Sources */,
 				10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */,
 				10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */,
+				10F8EAD02BB17885006516F9 /* LongPressGestureView.swift in Sources */,
 				10F127A22BADEB40004A2CC6 /* AppInformationView.swift in Sources */,
 				10F0FB532BAAFDC500D4019B /* SquaresGridRow.swift in Sources */,
 				10F127532BAB0163004A2CC6 /* GesturesInSwiftUIApp.swift in Sources */,

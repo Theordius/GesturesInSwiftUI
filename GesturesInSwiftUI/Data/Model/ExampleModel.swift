@@ -54,6 +54,12 @@ extension ExampleModel {
                 title: "Example 3",
                 subtitle: "Drag item and preserve it's position across the views",
                 destination: AnyView(DragGestureWithStateSavingView(endOffset: endOffset))
+            ),
+            .init(
+                title: "Example 4",
+                subtitle: "Drag and drop gesture",
+                destination: AnyView(DragAndDropGestureView()
+                    .environmentObject(ApplicationData()))
             )
         ]
     }

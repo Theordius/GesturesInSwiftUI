@@ -74,6 +74,9 @@
         }
       }
     },
+    "Drag and drop gesture" : {
+
+    },
     "Drag and Drop Gestures" : {
       "localizations" : {
         "pl" : {
@@ -276,6 +279,9 @@
           }
         }
       }
+    },
+    "Example 4" : {
+
     },
     "General" : {
       "localizations" : {

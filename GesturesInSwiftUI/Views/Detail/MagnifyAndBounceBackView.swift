@@ -35,7 +35,6 @@ struct MagnifyAndBounceBackView: View {
                     Spacer()
                 }
                 .navigationTitle("Magnify and bounce back")
-                .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

@@ -14,17 +14,18 @@ struct GeneralGesturesList: View {
     // MARK: - BODY
     var body: some View {
         NavigationStack {
-            ExampleListView(
-                headerTitle: "General gestures",
-                examples: viewModel.examples
-            )
+            ZStack {
+                ExampleListView(
+                    headerTitle: "General gestures",
+                    examples: viewModel.examples
+                )
+                .navigationBarTitleDisplayMode(.inline)
+            }
         }
     }
 }
 
 // MARK: - PREVIEW
-struct GeneralGesturesList_Previews: PreviewProvider {
-    static var previews: some View {
-        GeneralGesturesList(viewModel: GeneralGesturesViewModel())
-    }
+#Preview {
+    GeneralGesturesList(viewModel: GeneralGesturesViewModel())
 }

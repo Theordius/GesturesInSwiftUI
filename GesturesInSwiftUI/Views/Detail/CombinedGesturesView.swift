@@ -72,8 +72,7 @@ struct CombinedGesturesView: View {
                 totalZoom = 1.0
             }
         }
-        .navigationTitle("Rotation, Magnification, Dragging")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("Gestrures combinations")
     }
 }
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1020EB5A2BB5753500EFE159 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020EB592BB5753500EFE159 /* IconView.swift */; };
+		1020EB5C2BB57D7400EFE159 /* DragIconGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020EB5B2BB57D7400EFE159 /* DragIconGridView.swift */; };
+		1020EB5E2BB6BFBD00EFE159 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020EB5D2BB6BFBD00EFE159 /* Icon.swift */; };
 		10F0FB422BAAF9E400D4019B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0FB412BAAF9E400D4019B /* Assets.xcassets */; };
 		10F0FB462BAAF9E400D4019B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F0FB452BAAF9E400D4019B /* Preview Assets.xcassets */; };
 		10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F0FB4D2BAAFAE400D4019B /* TextView.swift */; };
@@ -54,6 +57,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1020EB592BB5753500EFE159 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		1020EB5B2BB57D7400EFE159 /* DragIconGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragIconGridView.swift; sourceTree = "<group>"; };
+		1020EB5D2BB6BFBD00EFE159 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		10F0FB3A2BAAF9D600D4019B /* GesturesInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturesInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F0FB412BAAF9E400D4019B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F0FB432BAAF9E400D4019B /* GesturesInSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GesturesInSwiftUI.entitlements; sourceTree = "<group>"; };
@@ -113,6 +119,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1020EB5F2BB6C81C00EFE159 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		10F0FB312BAAF9D600D4019B = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +210,7 @@
 				10F8EAD12BB17F0F006516F9 /* Action.swift */,
 				10F8EAD32BB18014006516F9 /* ActionMenu.swift */,
 				10F8EADB2BB2FEEF006516F9 /* PictureView.swift */,
+				1020EB592BB5753500EFE159 /* IconView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -213,9 +227,10 @@
 		10F1276E2BAC4AFF004A2CC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				10F8EAD72BB2FC2A006516F9 /* ApplicationData.swift */,
 				10F127682BAC45AF004A2CC6 /* ExampleModel.swift */,
 				10F8EAD52BB2FB15006516F9 /* Picture.swift */,
-				10F8EAD72BB2FC2A006516F9 /* ApplicationData.swift */,
+				1020EB5D2BB6BFBD00EFE159 /* Icon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -257,6 +272,7 @@
 				10F127742BAC5494004A2CC6 /* DragGestureWithoutBounceBackView.swift */,
 				10F1277B2BAC76E5004A2CC6 /* DragGestureWithStateSavingView.swift */,
 				10F8EAD92BB2FE6D006516F9 /* DragAndDropGestureView.swift */,
+				1020EB5B2BB57D7400EFE159 /* DragIconGridView.swift */,
 				10F127932BADB529004A2CC6 /* CombinedGesturesView.swift */,
 				10F127822BAD9F17004A2CC6 /* RotationGestureWithBounceBack.swift */,
 				10F127892BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift */,
@@ -272,6 +288,7 @@
 		10F1279D2BADD066004A2CC6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1020EB5F2BB6C81C00EFE159 /* Extensions */,
 				10F1279E2BADD06C004A2CC6 /* Modifiers */,
 			);
 			path = Utils;
@@ -367,8 +384,10 @@
 				10F8EADA2BB2FE6D006516F9 /* DragAndDropGestureView.swift in Sources */,
 				10F127A62BADEC19004A2CC6 /* AppInformationRow.swift in Sources */,
 				10F1279C2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift in Sources */,
+				1020EB5E2BB6BFBD00EFE159 /* Icon.swift in Sources */,
 				10F8EAD82BB2FC2A006516F9 /* ApplicationData.swift in Sources */,
 				10F0FB4E2BAAFAE400D4019B /* TextView.swift in Sources */,
+				1020EB5A2BB5753500EFE159 /* IconView.swift in Sources */,
 				10F127702BAC4DBD004A2CC6 /* DragGestureWithBounceBackView.swift in Sources */,
 				10F127692BAC45AF004A2CC6 /* ExampleModel.swift in Sources */,
 				10F1277A2BAC5E64004A2CC6 /* MagnificationGesturesViewModel.swift in Sources */,
@@ -384,6 +403,7 @@
 				10F1278A2BADA9E9004A2CC6 /* RotationGestureWithoutBounceBack.swift in Sources */,
 				10F127672BAC4535004A2CC6 /* ExampleListView.swift in Sources */,
 				10F8EADC2BB2FEEF006516F9 /* PictureView.swift in Sources */,
+				1020EB5C2BB57D7400EFE159 /* DragIconGridView.swift in Sources */,
 				10F1275F2BAB1005004A2CC6 /* MagnifyAndBounceBackView.swift in Sources */,
 				10F127552BAB083E004A2CC6 /* SquaresGridView.swift in Sources */,
 				10F8EAD02BB17885006516F9 /* LongPressGestureView.swift in Sources */,

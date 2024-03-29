@@ -16,9 +16,9 @@ class ApplicationData: ObservableObject {
 
     init() {
         userData = [
-            Picture(image: "spot1"),
-            Picture(image: "spot2"),
-            Picture(image: "spot3")
+            Picture(name: "spot1"),
+            Picture(name: "spot2"),
+            Picture(name: "spot3")
         ]
     }
 

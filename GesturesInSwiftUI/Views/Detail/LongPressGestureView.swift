@@ -19,32 +19,35 @@ struct LongPressGestureView: View {
     
     // MARK: - BODY
     var body: some View {
-        ZStack {
-            GradientBackground(colors: [.black, .gray], opacity: 0.85)
-            
-            ForEach(gridColors.indices, id: \.self) { rowIndex in
-                let colors = gridColors[rowIndex]
-                Grid {
-                    SquaresGridRow(colors: colors)
-                        .onLongPressGesture {
-                            selectedIndexPath = IndexPath(item: 0, section: rowIndex)
-                            selectedAction = nil
-                        }
-                        .contextMenu {
-                            if let selectedIndexPath = selectedIndexPath, selectedIndexPath.section == rowIndex {
-                                ActionMenu(selectedAction: $selectedAction)
+        NavigationStack {
+            ZStack {
+                GradientBackground(colors: [.blue, .gray], opacity: 0.85)
+                
+                ForEach(gridColors.indices, id: \.self) { rowIndex in
+                    let colors = gridColors[rowIndex]
+                    Grid {
+                        SquaresGridRow(colors: colors)
+                            .onLongPressGesture {
+                                selectedIndexPath = IndexPath(item: 0, section: rowIndex)
+                                selectedAction = nil
                             }
-                        }
-                        .id(rowIndex)
+                            .contextMenu {
+                                if let selectedIndexPath = selectedIndexPath, selectedIndexPath.section == rowIndex {
+                                    ActionMenu(selectedAction: $selectedAction)
+                                }
+                            }
+                            .id(rowIndex)
+                    }
+                }
+            } // ZStack
+            
+            .onChange(of: selectedAction) {
+                if let action = selectedAction, let indexPath = selectedIndexPath {
+                    print("The action \(action.description) was pressed on row \(indexPath.section)")
                 }
             }
-        }
-        
-        .onChange(of: selectedAction) {
-            if let action = selectedAction, let indexPath = selectedIndexPath {
-                print("The action \(action.description) was pressed on row \(indexPath.section)")
-            }
-        }
+        } // NavigationStack
+        .navigationBarTitle("Long press gesture, context menu")
     }
 }
 

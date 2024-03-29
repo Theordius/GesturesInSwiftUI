@@ -46,7 +46,6 @@ struct MagnifyAndStoreValueView: View {
                 Spacer()
             }
             .navigationTitle("Magnify and preserve magnification value")
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

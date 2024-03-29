@@ -47,7 +47,6 @@ struct DragGestureWithBounceBackView: View {
             }
         }
         .navigationTitle("Drag Gesture with bounce back")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -20,6 +20,7 @@ struct RotationGesturesList: View {
                 examples: viewModel.examples
             )
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

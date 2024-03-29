@@ -60,6 +60,11 @@ extension ExampleModel {
                 subtitle: "Drag and drop gesture",
                 destination: AnyView(DragAndDropGestureView()
                     .environmentObject(ApplicationData()))
+            ),
+            .init(
+                title: "Example 5",
+                subtitle: "Drag example utilizing zIndex",
+                destination: AnyView(DragIconGridView())
             )
         ]
     }
@@ -92,7 +97,7 @@ extension ExampleModel {
             ),
             .init(
                 title: "Example 2",
-                subtitle: "Long press gesture",
+                subtitle: "Long press gesture with context menu",
                 destination: AnyView(LongPressGestureView())
             )
         ]

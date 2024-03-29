@@ -36,7 +36,6 @@ struct RotatingGestureWithStatePreserveView: View {
 
         }
         .navigationTitle("Rotation Without State Preserving")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

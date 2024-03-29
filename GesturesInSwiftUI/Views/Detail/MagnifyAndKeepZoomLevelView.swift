@@ -46,7 +46,6 @@ struct MagnifyAndKeepZoomLevelView: View {
                 Spacer()
             }
             .navigationTitle("Magnify and Keep Zoom Level")
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

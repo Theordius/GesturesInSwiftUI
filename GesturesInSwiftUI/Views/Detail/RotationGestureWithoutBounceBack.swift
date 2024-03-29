@@ -37,7 +37,6 @@ struct RotationGestureWithoutBounceBack: View {
 
         }
         .navigationTitle("Rotation Without Bounce Back")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

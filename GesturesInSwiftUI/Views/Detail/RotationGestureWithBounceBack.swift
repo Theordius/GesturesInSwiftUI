@@ -36,7 +36,6 @@ struct RotationGestureWithBounceBack: View {
             .gesture(rotation)
         }
         .navigationTitle("Rotation with Bounce Back effect")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

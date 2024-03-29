@@ -61,7 +61,6 @@ struct DragGestureWithStateSavingView: View {
             }
         }
         .navigationTitle("Drag Gesture with position being preserved")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

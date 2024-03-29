@@ -20,6 +20,7 @@ struct MagnificationGesturesListView: View {
                 examples: viewModel.examples
             )
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

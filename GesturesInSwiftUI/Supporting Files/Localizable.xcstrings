@@ -75,7 +75,14 @@
       }
     },
     "Drag and drop gesture" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gest przeciągnij i upuść"
+          }
+        }
+      }
     },
     "Drag and Drop Gestures" : {
       "localizations" : {
@@ -87,6 +94,12 @@
         }
       }
     },
+    "Drag and drop icon with zIndex" : {
+
+    },
+    "Drag and drop image" : {
+
+    },
     "Drag and save the position of the item" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -94,6 +107,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przeciągnij i zachowaj pozycję"
+          }
+        }
+      }
+    },
+    "Drag example utilizing zIndex" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład przeciągania z zIndexem"
           }
         }
       }
@@ -281,7 +304,24 @@
       }
     },
     "Example 4" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 4"
+          }
+        }
+      }
+    },
+    "Example 5" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład 5"
+          }
+        }
+      }
     },
     "General" : {
       "localizations" : {
@@ -313,6 +353,9 @@
           }
         }
       }
+    },
+    "Gestrures combinations" : {
+
     },
     "Hello, World!" : {
       "extractionState" : "stale",
@@ -377,8 +420,25 @@
         }
       }
     },
-    "Long press gesture" : {
-
+    "Long press gesture with context menu" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Długie naciśnięcie z menu kontekstowym"
+          }
+        }
+      }
+    },
+    "Long press gesture, context menu" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Długie naciśnięcie, menu kontekstowe"
+          }
+        }
+      }
     },
     "Magnification" : {
       "localizations" : {
@@ -498,6 +558,16 @@
         }
       }
     },
+    "On this example you can drag the icon under this text or icon over another icon" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na tym przykładzie możesz przesunąć ikonę pod tekst lub nad ikonkę. "
+          }
+        }
+      }
+    },
     "Polish" : {
       "localizations" : {
         "pl" : {
@@ -524,6 +594,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podgląd"
+          }
+        }
+      }
+    },
+    "Randomize" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasowanie"
           }
         }
       }
@@ -620,9 +700,6 @@
         }
       }
     },
-    "Rotation, Magnification, Dragging" : {
-
-    },
     "Rotation, Magnification, Draging" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -666,7 +743,14 @@
       }
     },
     "test" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "test"
+          }
+        }
+      }
     },
     "Test" : {
       "localizations" : {
@@ -699,7 +783,14 @@
       }
     },
     "Zoom Me!" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przybliż mnie!"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

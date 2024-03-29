@@ -13,32 +13,35 @@ struct DragAndDropGestureView: View {
 
     // MARK: - BODY
     var body: some View {
-        VStack {
-            HStack(spacing: 10) {
-                ForEach(appData.userData) { picture in
-                    PictureView(picture: picture)
+        NavigationStack {
+            VStack {
+                HStack(spacing: 10) {
+                    ForEach(appData.userData) { picture in
+                        PictureView(picture: picture)
+                    }
                 }
-            }
-            .frame(minWidth: 0, maxWidth: .infinity)
-            .frame(height: 100)
+                .frame(minWidth: 0, maxWidth: .infinity)
+                .frame(height: 100)
 
-            GeometryReader { geo in
-                VStack {
-                    Image(appData.selected ?? "nopicture")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(minWidth: 0, maxWidth: .infinity)
-                        .clipped()
-                        .overlay(appData.dropOver ? Color.green.opacity(0.2) : Color.clear)
+                GeometryReader { geo in
+                    VStack {
+                        Image(appData.selected ?? "nopicture")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(minWidth: 0, maxWidth: .infinity)
+                            .clipped()
+                            .overlay(appData.dropOver ? Color.green.opacity(0.2) : Color.clear)
+                    }
+                    .onAppear(perform: {
+                        appData.dropFrame = geo.frame(in: .global)
+                    })
                 }
-                .onAppear(perform: {
-                    appData.dropFrame = geo.frame(in: .global)
-                })
+                .padding()
+                .zIndex(-1)
             }
-            .padding()
-            .zIndex(-1)
+            .padding(.top)
         }
-        .padding(.top)
+        .navigationTitle("Drag and drop image")
     }
 }
 

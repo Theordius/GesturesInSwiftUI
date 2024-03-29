@@ -16,7 +16,7 @@ struct PictureView: View {
     
     // MARK: - BODY
     var body: some View {
-        Image(picture.image)
+        Image(picture.name)
             .resizable()
             .scaledToFit()
             .offset(offset)
@@ -29,7 +29,7 @@ struct PictureView: View {
                 }
                 .onEnded { value in
                     if appData.dropOver {
-                        appData.selected = picture.image
+                        appData.selected = picture.name
                         appData.remove(id: picture.id)
                         appData.dropOver = false
                     } else {
@@ -43,7 +43,7 @@ struct PictureView: View {
 // MARK: - PREVIEW
 struct PictureView_Previews: PreviewProvider {
     static var previews: some View {
-        PictureView(picture: Picture(image: "spot1"))
+        PictureView(picture: Picture(name: "spot1"))
             .environmentObject(ApplicationData())
     }
 }

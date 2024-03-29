@@ -26,13 +26,13 @@ struct DragGestureWithoutBounceBackView: View {
     var body: some View {
         NavigationStack {
             VStack {
-
+                
                 Spacer()
-
+                
                 SquaresGridView()
-
+                
                 Spacer()
-
+                
                 TextView(
                     text: "Drag Me!",
                     backgroundColor: .black.opacity(0.75),
@@ -60,12 +60,11 @@ struct DragGestureWithoutBounceBackView: View {
                     endOffset = .zero
                     currentOffset = .zero
                 }
-
+                
                 Spacer()
             }
         }
         .navigationTitle("Drag Gesture without bounce back")
-        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

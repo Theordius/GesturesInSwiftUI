@@ -20,6 +20,7 @@ struct DragGesturesListView: View {
                 examples: viewModel.examples
             )
         }
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

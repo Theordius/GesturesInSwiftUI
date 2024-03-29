@@ -11,12 +11,13 @@ import TipKit
 @main
 struct GesturesInSwiftUIApp: App {
     
-    @AppStorage("language") var language: String = "en"
-    
+   @StateObject var applicationData = ApplicationData()
+
     var body: some Scene {
         WindowGroup {
-            ContentView(language: $language)
-                .environment(\.locale, Locale(identifier: language))
+            ContentView()
+                .environment(\.locale, Locale(identifier: applicationData.language))
+                .environmentObject(applicationData)
                 .task {
                     try? Tips.configure(
                         [.displayFrequency(.immediate),

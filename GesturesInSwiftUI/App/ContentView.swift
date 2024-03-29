@@ -9,18 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
 
-    //MARK: - Properties:
-    @Binding var language: String
+    //MARK: - Properties
+
     @State private var scaleFactor: CGFloat = 1.0
     @State private var endOffset: CGSize = .zero
     @State private var angle: Angle = Angle(degrees: 1.0)
 
-    //MARK: - Body:
     var body: some View {
         NavigationStack {
             VStack(spacing: .zero) {
                 CustomNavigationBarView(
-                    language: $language,
                     title: "Swift UI Gestures"
                 )
                 .modifier(NavigationBarStyleModifier())
@@ -78,13 +76,11 @@ struct ContentView: View {
             .onAppear {
                 UITabBar.appearance().backgroundColor = UIColor.systemBackground
                 UITabBar.appearance().isTranslucent = true
-
             }
         }
     }
 }
 
-//MARK: - Preview
 #Preview {
-    ContentView(language: .constant("en"))
+    ContentView()
 }

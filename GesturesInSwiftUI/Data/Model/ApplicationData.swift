@@ -6,8 +6,11 @@
 //
 
 import Foundation
+import SwiftUI
 
 class ApplicationData: ObservableObject {
+
+    @AppStorage("language") var language: String = "en"
 
     @Published var userData: [Picture]
     @Published var selected: String?

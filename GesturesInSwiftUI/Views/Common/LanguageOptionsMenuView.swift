@@ -9,9 +9,9 @@ import SwiftUI
 import TipKit
 
 struct LanguageOptionsMenuView: View {
-   
+
     // MARK: - PROPERTIES
-    @Binding var language: String
+    @EnvironmentObject var applicationData: ApplicationData
 
     var gearMenuTip = GearMenuTip()
 
@@ -27,11 +27,11 @@ struct LanguageOptionsMenuView: View {
     private func languageMenu() -> some View {
         Menu {
             Button("English") {
-                language = "en"
+                applicationData.language = "en"
             }
 
             Button("Polish") {
-                language = "pl"
+                applicationData.language = "pl"
             }
         } label : {
             Image(systemName: "gearshape.fill")
@@ -42,5 +42,6 @@ struct LanguageOptionsMenuView: View {
 
 // MARK: - PREVIEW
 #Preview {
-    LanguageOptionsMenuView(language: .constant("en"))
+    LanguageOptionsMenuView()
+        .environmentObject(ApplicationData())
 }

@@ -196,21 +196,21 @@
 		10F127582BAB0A78004A2CC6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				10F0FB4D2BAAFAE400D4019B /* TextView.swift */,
-				10F127542BAB083E004A2CC6 /* SquaresGridView.swift */,
-				10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */,
-				10F127662BAC4535004A2CC6 /* ExampleListView.swift */,
-				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
-				10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */,
-				10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */,
-				10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */,
-				10F127A12BADEB40004A2CC6 /* AppInformationView.swift */,
-				10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */,
-				10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */,
 				10F8EAD12BB17F0F006516F9 /* Action.swift */,
 				10F8EAD32BB18014006516F9 /* ActionMenu.swift */,
-				10F8EADB2BB2FEEF006516F9 /* PictureView.swift */,
+				10F127A12BADEB40004A2CC6 /* AppInformationView.swift */,
+				10F127A52BADEC19004A2CC6 /* AppInformationRow.swift */,
+				10F127A32BADEBA7004A2CC6 /* AppInformationLabelView.swift */,
+				10F127992BADCE23004A2CC6 /* CustomNavigationBarView.swift */,
+				10F1279B2BADCE81004A2CC6 /* CustomNavigationBarHeaderView.swift */,
+				10F127662BAC4535004A2CC6 /* ExampleListView.swift */,
+				10F0FB552BAAFFDF00D4019B /* GradientBackground.swift */,
 				1020EB592BB5753500EFE159 /* IconView.swift */,
+				10F8EADB2BB2FEEF006516F9 /* PictureView.swift */,
+				10F0FB4D2BAAFAE400D4019B /* TextView.swift */,
+				10F127542BAB083E004A2CC6 /* SquaresGridView.swift */,
+				10F0FB522BAAFDC500D4019B /* SquaresGridRow.swift */,
+				10F1277D2BAD913C004A2CC6 /* LanguageOptionsMenuView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";

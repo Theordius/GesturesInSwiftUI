@@ -8,6 +8,6 @@
 import SwiftUI
 
 struct Picture: Identifiable {
-    let id: UUID = UUID()
+    let id = UUID()
     var name: String
 }

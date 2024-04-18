@@ -25,13 +25,12 @@ struct AppInformationRow: View {
                 
                 Spacer()
                 
-                if (content != nil) {
-                    Text(content ?? "Error")
-                } else if (linkLabel != nil && linkDestination != nil) {
-                    Link(linkLabel ?? "Link was not provided", destination: URL(string: "https://\(linkDestination!)")!)
+                if let content {
+                    Text(content)
+                } else if let linkLabel, let linkDestination, let url = URL(string: "https://\(linkDestination)") {
+                    Link(linkLabel, destination: url)
                     Image(systemName: "arrow.up.right.square").foregroundColor(.yellow)
-                }
-                else {
+                } else {
                     EmptyView()
                 }
             }

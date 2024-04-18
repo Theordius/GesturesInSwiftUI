@@ -13,12 +13,13 @@ struct DragGestureWithStateSavingView: View {
     @Binding var endOffset: CGSize
     @State private var currentOffset: CGSize = .zero
 
-    var offset: CGSize {
+    var offset: CGSize  {
         CGSize(
             width: currentOffset.width + endOffset.width,
             height: currentOffset.height + endOffset.height
         )
     }
+
     // MARK: - BODY
     var body: some View {
         NavigationStack {

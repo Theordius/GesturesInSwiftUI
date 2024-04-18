@@ -48,10 +48,7 @@ struct DragGestureWithoutBounceBackView: View {
                         }
                         .onEnded { _ in
                             withAnimation(.spring()) {
-                                endOffset = CGSize(
-                                    width: currentOffset.width + endOffset.width,
-                                    height: currentOffset.height + endOffset.height
-                                )
+                                endOffset = offset
                                 currentOffset = .zero
                             }
                         }

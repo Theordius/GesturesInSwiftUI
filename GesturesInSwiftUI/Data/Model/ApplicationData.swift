@@ -10,12 +10,12 @@ import SwiftUI
 
 class ApplicationData: ObservableObject {
 
-    @AppStorage("language") var language: String = "en"
+    @AppStorage("language") var language = "en"
 
     @Published var userData: [Picture]
     @Published var selected: String?
-    @Published var dropFrame: CGRect = CGRect.zero
-    @Published var dropOver: Bool = false
+    @Published var dropFrame = CGRect.zero
+    @Published var dropOver = false
 
     init() {
         userData = [
@@ -25,10 +25,7 @@ class ApplicationData: ObservableObject {
         ]
     }
 
-
     func remove(id: UUID) {
-        if let index = userData.firstIndex(where: { $0.id == id }) {
-            userData.remove(at: index)
-        }
+        _ = userData.firstIndex(where: { $0.id == id }).map { userData.remove(at: $0) }
     }
 }

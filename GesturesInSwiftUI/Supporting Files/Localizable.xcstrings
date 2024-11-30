@@ -192,6 +192,7 @@
       }
     },
     "Drag me!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -274,6 +275,7 @@
       }
     },
     "Example 1 View" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -589,6 +591,7 @@
       }
     },
     "Preview" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -723,6 +726,7 @@
       }
     },
     "Subtitle" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -743,6 +747,7 @@
       }
     },
     "test" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
@@ -753,6 +758,7 @@
       }
     },
     "Test" : {
+      "extractionState" : "stale",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
